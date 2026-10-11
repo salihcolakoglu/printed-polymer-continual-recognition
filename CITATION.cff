@@ -1,39 +1,31 @@
 cff-version: 1.2.0
-message: "If this software contributes to your research, please cite this versioned release. This academic request is voluntary under MIT; retain required source-data attribution."
+message: >-
+  Cite this exact computational version and retain the original data and
+  method citations. Use the version DOI displayed by Zenodo after archiving.
 type: software
-repository-code: "https://github.com/salihcolakoglu/printed-polymer-continual-recognition"
 title: "Computational materials for Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records"
-version: "A_v23.0"
-doi: "10.5281/zenodo.23289833"
-date-released: "2026-10-11"
+version: "27.0"
 authors:
   - family-names: "Çolakoğlu"
     given-names: "Salih"
+    affiliation: "Marmara University"
+    orcid: "https://orcid.org/0000-0002-2180-5073"
   - family-names: "Onat"
     given-names: "Mustafa"
+    affiliation: "Marmara University"
+    orcid: "https://orcid.org/0000-0003-4304-3361"
+repository-code: "https://github.com/salihcolakoglu/printed-polymer-continual-recognition"
+abstract: >-
+  MATLAB learning code, published source-average data, saved models, results,
+  Simulink inference demonstrations, and figures for task-incremental and
+  class-incremental recognition with ordinary and Walsh codes, negotiated
+  learning, replay, and joint-seen comparisons. Supporting manuscript A27.
+  Code is MIT; scientific artifact file-group terms are in LICENSE_SCOPE.json.
 license: MIT
-abstract: "The archived A_v23.0 release provides original MATLAB analysis, recorded outputs and figure materials for the published-average-record recognition study. Original analysis and plotting/helper code is MIT licensed; source-derived measurements and original figures, scientific documentation, computational outcomes and saved models are CC BY 4.0. This software citation does not assert publication of the associated manuscript."
-references:
-  - type: data
-    title: "FDM 3D Printing Dataset: Printer Type, Materials, Process Parameters, and Tensile, Hardness and Roughness Test Results"
-    authors:
-      - family-names: "Aktepe"
-        given-names: "E."
-      - family-names: "Ergün"
-        given-names: "U."
-    version: "2"
-    year: 2026
-    doi: "10.17632/zd6td6svd6.2"
-    license: CC-BY-4.0
-  - type: article
-    title: "HMQ-ES-Stack-GBR: A Hybrid Ensemble Learning Model for Mechanical and Physical Quality Prediction in FDM 3D Printing"
-    authors:
-      - family-names: "Aktepe"
-        given-names: "E."
-      - family-names: "Ergün"
-        given-names: "U."
-    journal: "Micromachines"
-    year: 2026
-    volume: 17
-    start: 859
-    doi: "10.3390/mi17070859"
+keywords:
+  - continual learning
+  - task-incremental learning
+  - class-incremental learning
+  - printed polymers
+  - Walsh codes
+  - negotiated representations

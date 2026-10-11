@@ -1,0 +1,123 @@
+{
+  "status": "PASS_FOR_ONE_A24_LEARNING_RUN",
+  "independent_review_event": "SD-9108",
+  "math_run_event": "SD-9112",
+  "math_results": [
+    {
+      "file": "A24_code_math_result_v1.json",
+      "checks": 17,
+      "failures": 0
+    },
+    {
+      "file": "A24_ce_math_result_v1.json",
+      "checks": 11,
+      "failures": 0
+    }
+  ],
+  "purpose": "Özgün A korunarak kodlama ve müzakerenin yeni öğrenme/unutma ilişkisini TIL ve CIL içinde karşılaştırmak.",
+  "success": "165aşama/99000güncelleme/17550karar; tüm başlangıçlar ve yeni öğrenme/koruma çıktıları saklanır. Başarı üstünlük gerektirmez.",
+  "self_assessment": "Protokol kaynak ortalamalarında keşifseldir. Kodlu kollar eşit52param; eskiCE32param farklı. Bir başlangıç seçilmez ve kötü sonuçla alfa değiştirilmez.",
+  "alternative": "Tamamlanmayan koşuyu hata/partial olarak sakla; sadece somut uygulama hatası onarılır.",
+  "pins": [
+    {
+      "file": "06_Protokoller\\A24_prospective_protocol_v3.json",
+      "sha256": "945ed597e74dd97ccc7e26e5028842b93f77044774d991bdf84659d5f623de09",
+      "bytes": 9469
+    },
+    {
+      "file": "02_Veriler\\A_source_average_records_v1.csv",
+      "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+      "bytes": 16440
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\run_a24_learning_v1.m",
+      "sha256": "cfa84d6ccea6cb5de6ea4daee62f2c3f2497cc55e6dee9a1c1fdf076c9e9b879",
+      "bytes": 9066
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\launch_scoped_matlab_v1.py",
+      "sha256": "6471d08fee5f06e2ecabea7a4aeec396e2b867b3ea98eddf2342da2b504c31cb",
+      "bytes": 2781
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\a24_ce_lossgrad.m",
+      "sha256": "cad9e432ff72aabb91120d580d847317e615ebdab255fd6003d981aa25eb06b8",
+      "bytes": 1778
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\a24_ce_predict.m",
+      "sha256": "288d05be58e7c823bca5ef95ccf3972935a78a330c603b075b43a7bbb1f1fa21",
+      "bytes": 263
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\a24_codebook.m",
+      "sha256": "546ab8139d96a88dc8f6da809803a544920316d13f1d9468c4791c8e8b9df658",
+      "bytes": 740
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\a24_code_lossgrad.m",
+      "sha256": "f53bdbddc670923555db83f5f14c3adfde3ea234664d25de169e36684f95aeae",
+      "bytes": 1651
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\a24_decode.m",
+      "sha256": "e49860a02a5d7affb879275ebd88700d997fb80a5679b13355089f67a2a270bc",
+      "bytes": 1783
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\a24_seen_softmax.m",
+      "sha256": "b056a9bba0908c6c674400e80b80b1c007546cb80fe0e752907ac11202831b4a",
+      "bytes": 796
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\a24_sigmoid.m",
+      "sha256": "7ce028ab5b9afc808148d1015e8265fdd1c77fc4af2c6eeb731e6a3bc954abb4",
+      "bytes": 299
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_adam.m",
+      "sha256": "d9b5ab45e35639acb6e3965f065727fb41e64f2adb0083e45e6a93d8a6fe6b90",
+      "bytes": 1430
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_init.m",
+      "sha256": "8d35ec14fa5c6026e7e0dab33a87f053b23bb2d1359a0f096d60ba0418540bf5",
+      "bytes": 1053
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_logits.m",
+      "sha256": "eaf99857f54949c4d4752f3cf8a09a5bf3722873a4faaae475b8b945793fd31c",
+      "bytes": 973
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_lossgrad.m",
+      "sha256": "6b7a4e40fc6a39ca97c887f0edcf7b684d5e994959ad45ade11ac608c463701b",
+      "bytes": 1568
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_pack.m",
+      "sha256": "826bb4945a7ef7f5e278a5dcbe78335368e6729f78b25f9f929d337dadf6908c",
+      "bytes": 413
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_pair_softmax.m",
+      "sha256": "7548c08a3588ab507fa819924f92e95ff6ee433b8b491c8587bacf4df61d57ab",
+      "bytes": 541
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_param_names.m",
+      "sha256": "3fdcb854a295e281d25d15969e18bba3b9576dce3df84caac1a1ff30a1301237",
+      "bytes": 233
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_predict.m",
+      "sha256": "542c36da2ff6fe469ff7ab27121a32d7254c0b6f858e9991e6d0ebe71920b27d",
+      "bytes": 186
+    },
+    {
+      "file": "03_MATLAB_Kodlari\\utility\\r04nn_unpack.m",
+      "sha256": "27aebdd5ea36e0a56a617e3a6d82355b75e15052e05a5d63604b09845de2024d",
+      "bytes": 361
+    }
+  ]
+}

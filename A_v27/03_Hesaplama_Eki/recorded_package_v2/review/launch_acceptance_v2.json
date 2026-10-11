@@ -1,0 +1,348 @@
+{
+  "schema": "N8D_R04_INDEPENDENT_SINGLE_TECHNICAL_REPAIR_LAUNCH_ACCEPTANCE_V2",
+  "status": "PASS_FOR_ONE_FROZEN_TECHNICAL_REPAIR_SOURCE_RUN",
+  "accepted_at_utc": "2026-10-07T22:01:07.853476+00:00",
+  "authority": {
+    "numeric_execution": "SD-5971",
+    "four_source_context_scope": "SD-5988/BK-0057 resolved canonical",
+    "prospective_freeze": "SD-5996/SD-5997",
+    "new_source_free_math": "SD-5999",
+    "narrow_prelaunch_repairs": "SD-6009/SD-6013",
+    "single_repair_plan": "SD-6021 underoriginalfrozenprotocolsingleevidencebasedtechnicalrepairclause",
+    "source_free_language_fixture": "SD-6023"
+  },
+  "reviewer_scope": {
+    "source_training_runs": 0,
+    "new_normalizer_fits": 0,
+    "fit_or_training_reruns": 0,
+    "original_workbook_cell_rereads": 0,
+    "root_state_changes": 0
+  },
+  "pins": {
+    "protocol": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\prospective_protocol_v1.json",
+      "bytes": 13080,
+      "sha256": "8b4c1b579889a7cedb6b652d47f1ae95ffe546793ae4e77eb699231d31ec46ea"
+    },
+    "input_manifest": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\staged_input_manifest_v1.json",
+      "bytes": 1399,
+      "sha256": "06496d8264332caa2433c1a71a4eff524a553a5acbeb5a8f35b27e3b73bb90f6"
+    },
+    "staged_csv": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\staged_source_records_v1.csv",
+      "bytes": 16440,
+      "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4"
+    },
+    "freeze_receipt": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\freeze_receipt_v1.json",
+      "bytes": 748,
+      "sha256": "f304dd902b44c06e50291480414df7a6386eea76c4eb74b2c4be089ec867dcd9"
+    },
+    "runner": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\run_r04_source_experiment_v2.m",
+      "bytes": 12573,
+      "sha256": "284624f7194920bbef3d1de2f14fd2ddb932ab34942a0d5ee6b3205801fb760a"
+    },
+    "launcher": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\launch_one_frozen_source_package_v2.py",
+      "bytes": 6616,
+      "sha256": "0e493095ecc08eed1aebd08264d14e98000f926b4b8478050e036acd5334d946"
+    },
+    "utility_manifest_v2": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\new_utility_code_manifest_v2.json",
+      "bytes": 1454,
+      "sha256": "964facf5d0339e7870469ad6b31d912f36bb5eaf67d37d7e4b868f385df412c7"
+    },
+    "utility_interface_v2": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\README_INTERFACE_v2.txt",
+      "bytes": 1725,
+      "sha256": "2897d2be6130a3b07999674086b4e873ec0b43ffd26aa3a7dc9f2f660727b9ef"
+    },
+    "new_math_receipt": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\math_checks_receipt_v1.json",
+      "bytes": 2451,
+      "sha256": "6bab9f2cd90faf7f90af369e5940ffbc235ff044ee8d48ff2d502e0620707f1b"
+    },
+    "new_math_scoped_receipt": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\scoped_matlab_math_run_receipt_v1.json",
+      "bytes": 746,
+      "sha256": "e222a0bacde097603e2f43867b804bf339c7927bec4afdb42c6af5083b310561"
+    },
+    "independent_protocol_input_review": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\review\\independent_prospective_protocol_input_review_v1.json",
+      "bytes": 16511,
+      "sha256": "61da1333177ba3328f442584da9e51c6e14893d2c9d991190885c0836ba186c2"
+    },
+    "source_binding_audit": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\review\\staged_source_binding_and_replay_counts_v1.json",
+      "bytes": 1374,
+      "sha256": "1605c91dc0fae9d75c6d11dfbf1a75122f2d714848ad736c5c5ea5a3e741265e"
+    },
+    "native_lineage": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_publication_focus_2026_10_06\\N5A_source_response_cards_NOT_ADMITTED\\native_measured_row_lineage_104.json",
+      "bytes": 1410987,
+      "sha256": "e17551501b792e8b6908729d84808bae61d36a3c0f1f0bb9fd6336376cf35676"
+    },
+    "technical_repair_prospective_receipt": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\technical_repair_prospective_receipt_v1.json",
+      "bytes": 2261,
+      "sha256": "8846a6ebfdfa7f6e4ff08f079815981d3559d8f8f062d33a9092e75125d05862"
+    },
+    "structure_diagnostic_code": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\check_empty_struct_repair_v1.m",
+      "bytes": 1018,
+      "sha256": "1b594be05cb11b97d4b9068d6fbf44037ec6a2cdc303b7f83e45980534003245"
+    },
+    "structure_diagnostic_saved_receipt": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\empty_struct_repair_receipt_v1.json",
+      "bytes": 371,
+      "sha256": "1601ce4c086e6d4541af9cd780d531dfbde7699d7aa34bd3dba0b6999a6bca17"
+    },
+    "structure_diagnostic_launch_receipt": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\structure_diagnostic_launch_receipt_v1.json",
+      "bytes": 888,
+      "sha256": "5c42097633762765dc3d9b3ccc519f287a8ea460630bc5ad003ddb1e01ac298f"
+    },
+    "prior_launch_acceptance": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\review\\launch_acceptance_v1.json",
+      "bytes": 14843,
+      "sha256": "b2eb22c5eaf1a3add45695c062314ae8f3ca1fd9bed3957d80491115da497733"
+    },
+    "first_failure_independent_review": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\review\\first_execution_failure_review_v1.json",
+      "bytes": 8008,
+      "sha256": "8f3cbe998523e002475996ca05d8a41019b8b76375ddb867316f9b50b751d542"
+    },
+    "narrow_runner_diff": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\review\\technical_repair_runner_diff_v1_to_v2.txt",
+      "bytes": 3085,
+      "sha256": "25651fcf672ddc5b7dd9d513597a192eeec839599b0f5c3c3ad5f3b533cd3f15"
+    }
+  },
+  "source_dependency_pins": [
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\Gelen_Kaynaklar\\Hedefli_Arsiv_2026_10_07\\R04_Aktepe_Ergun_FDM_Mechanical\\3d_printing_parameters_dataset_original_v2.xlsx",
+      "bytes": 60765,
+      "sha256": "fc85cbbe019090c55740d86e8bb451159443fa68100cd0a7c99dbdd75330a591"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8B_R04_operation_card\\agents\\source_card\\R04_exact_operation_novelty_card_v1.json",
+      "bytes": 36872,
+      "sha256": "af54dc03f1cb16f7b73d056e57f73c4d8cc27db4d58c3b17a933a112d09da573"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8B_R04_operation_card\\agents\\source_card\\selected_104_four_channel_schema_audit_v1.json",
+      "bytes": 61930,
+      "sha256": "c9fda7fb8592f9f1fe4fa6128ca9ef7ad6a7ed756bd1fad874f3fca93eeaa845"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8B_R04_operation_card\\agents\\split_review\\prospective_condition_group_split_v1.json",
+      "bytes": 45939,
+      "sha256": "2758493bbf7cbde90f914c1a9002f1e47c9b84ab4a294f2d6e91040f44cd3404"
+    }
+  ],
+  "utility_code_pins": [
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_adam.m",
+      "bytes": 1430,
+      "sha256": "d9b5ab45e35639acb6e3965f065727fb41e64f2adb0083e45e6a93d8a6fe6b90"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_init.m",
+      "bytes": 1053,
+      "sha256": "8d35ec14fa5c6026e7e0dab33a87f053b23bb2d1359a0f096d60ba0418540bf5"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_logits.m",
+      "bytes": 973,
+      "sha256": "eaf99857f54949c4d4752f3cf8a09a5bf3722873a4faaae475b8b945793fd31c"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_lossgrad.m",
+      "bytes": 1568,
+      "sha256": "6b7a4e40fc6a39ca97c887f0edcf7b684d5e994959ad45ade11ac608c463701b"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_pack.m",
+      "bytes": 413,
+      "sha256": "826bb4945a7ef7f5e278a5dcbe78335368e6729f78b25f9f929d337dadf6908c"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_pair_softmax.m",
+      "bytes": 541,
+      "sha256": "7548c08a3588ab507fa819924f92e95ff6ee433b8b491c8587bacf4df61d57ab"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_param_names.m",
+      "bytes": 233,
+      "sha256": "3fdcb854a295e281d25d15969e18bba3b9576dce3df84caac1a1ff30a1301237"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_predict.m",
+      "bytes": 186,
+      "sha256": "542c36da2ff6fe469ff7ab27121a32d7254c0b6f858e9991e6d0ebe71920b27d"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\r04nn_unpack.m",
+      "bytes": 361,
+      "sha256": "27aebdd5ea36e0a56a617e3a6d82355b75e15052e05a5d63604b09845de2024d"
+    },
+    {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\matlab_utility\\run_r04nn_math_checks.m",
+      "bytes": 5729,
+      "sha256": "92dfa378b41c50cb6af8b50ae75b39b3bc741e1f1ed64e381a632717d4449be4"
+    }
+  ],
+  "checks": [
+    {
+      "check": "exact_pin_launch_guard",
+      "status": "PASS",
+      "finding": "Scoped Pythonlauncher recursively verifies every accepted absolute artifact hash plus10actualMfile utilitymanifest pins; checks no source_results/runtime rerun; ownedprocess1200swatchdog; no unrelated MATLABprocess termination"
+    },
+    {
+      "check": "cohort_binding_and_no_feature_leakage",
+      "status": "PASS",
+      "finding": "104rows/26conditiongroups,72TRAIN/16FIT/16REPORT;208native plus208XMLbinary64bindings match; X exactly modulus/hardness; IDs/material/process notX"
+    },
+    {
+      "check": "causal_normalizer",
+      "status": "PASS",
+      "finding": "T1TRAIN36 labels1/2 only; one frozen sample-SD scaler allarms/stages, zero-SDflagfallback1; nofuture/DEV/reportscale fit"
+    },
+    {
+      "check": "masked_task_loss_prediction_and_replay",
+      "status": "PASS",
+      "finding": "SharedK4 publicknownpair atloss/prediction; replayviews retainoldtaskmasks; beforeT2 4views4unique2groups, beforeT3 8views6unique2groups; currentmean1+memorymean.5 normalized1.5"
+    },
+    {
+      "check": "training_budget_and_state",
+      "status": "PASS",
+      "finding": "2architectures12/32params,3arms,5seeds,3stages,600updates; sequentialAdamcontinues, jointresetfromsamearchitectureseed; optimizedgradientexamples versus extra diagnosticcalls explicit"
+    },
+    {
+      "check": "decoder_and_failure_denominators",
+      "status": "PASS",
+      "finding": "Fixed native scoregap.15/tiesnonselection; nonfinitefailures retained; forcedargmaxlowestpairlabeltie diagnostic; unseennearestcandidate retainednonselection, futuretaskdiagnostics marked"
+    },
+    {
+      "check": "whole_evaluation_population_and_unions",
+      "status": "PASS",
+      "finding": "90stagefitentries,14508decisionviews,837pertasksummaryrows; finalREPORT perarchitecture/arm/seed across3tasks24views16originalrows4uniongroups. Rawsource_row_id/condition_group preserved; useunions forcross-task row/group report"
+    },
+    {
+      "check": "partial_result_custody",
+      "status": "PASS",
+      "finding": "Every completedlearnerstage and neareststage calls preservePartial withmodels/normalizer/protocol/ledger/decisions/summaries; temporaryMAT committedtooutpartialMAT, priorvalidpartial retained duringnextsave"
+    },
+    {
+      "check": "new_generic_math_saved_evidence",
+      "status": "PASS",
+      "finding": "15/15 savedfinite-difference/knowncase/weights/masks/Adamchecks, actual MATLABexit0; no source-loaded/training; no mathrerun duringreview"
+    },
+    {
+      "check": "scope_and_postresult_independent_gate",
+      "status": "PASS",
+      "finding": "All104source records previouslyexposed; exploratory four sourcecontexts only, noblindTEST/physicalIID/fullprofiles/modelassistedCL. Acquisition/retention/negatives and actualcontribution require savedresultadherence/arithmeticreview, no retraining"
+    },
+    {
+      "check": "single_technical_repair_and_old_failure_integrity",
+      "status": "PASS",
+      "finding": "Exactv1-v2runnerdiff reconstructedonlyallowlistedfieldlessfirstappend/custody/versionchanges; v1code/runtime/results allpreviouspinsmatch; newsourcefree typefixture reproducedcauseandfixedtwo-recordappend; no scientificconfigurationchange orv1 score use"
+    }
+  ],
+  "prospective_population": {
+    "unique_source_records": 104,
+    "condition_groups": 26,
+    "TRAIN_records": 72,
+    "FIT_DEVELOPMENT_records": 16,
+    "REPORTING_DEVELOPMENT_records": 16,
+    "training_stage_fits": 90,
+    "decision_views": 14508,
+    "summary_rows": 837,
+    "final_REPORT_views_per_method_seed": 24,
+    "final_REPORT_unique_rows_per_method_seed": 16,
+    "final_REPORT_group_union": 4,
+    "optimizer_update_examples_per_architecture_seed": {
+      "sequential_no_replay": 64800,
+      "sequential_replay": 72000,
+      "joint_seen_reference": 129600
+    },
+    "completed_gradient_examples_with_two_diagnostics_per_successful_stage_per_architecture_seed": {
+      "sequential_no_replay": 65016,
+      "sequential_replay": 72240,
+      "joint_seen_reference": 130032
+    },
+    "count_interpretation": "Prospective counts, not executed results; seeds are optimizer sensitivity, not specimen repetitions"
+  },
+  "launch_contract": {
+    "allowed_repaired_attempts": 1,
+    "previous_attempt": "v1failedSD6018preserved",
+    "technical_repair_budget": "The oneprospectiveevidencebasedtechnicalrepair isconsumedbythisv2; noanotherretrainingorrepairwithoutnewrecordeddecision",
+    "entry_point": "launch_one_frozen_source_package_v2.py",
+    "direct_MATLAB_bypass": "Notaccepted; usehashguardedscopedlauncher",
+    "hash_change": "Anyacceptedartifactchangeinvalidatesthisacceptance; no source launchunlessnewnarrowreview",
+    "time_limit_seconds": 1200,
+    "result_gate": "Independent savedresult arithmetic/adherence review, no source trainingrerun"
+  },
+  "open_scientific_limits": [
+    "Nominalsourcecontexts combine formulation/printer/material-specific thermalsettings; not chemistry-onlycausality",
+    "Published averagedrows have unknown physical replicate/build/batch variance and independence",
+    "No publication contribution or NN/CL benefit is inferred from technicalacceptance"
+  ],
+  "B_plan": "Ifv2singletechnicalrepairfails, preserveallv1/v2failedorpartialartifacts andholddependentR04sourcebranch; continueindependentR06/literature/manuscript. Nooutcome-driventuning orautomaticextraattempt.",
+  "prior_failure_custody": {
+    "event_id": "SD-6018",
+    "artifacts": {
+      "runtime_source_v1": [
+        {
+          "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\runtime_source_v1\\launch_receipt_v1.json",
+          "bytes": 1006,
+          "sha256": "52fe1ce85b9ce309f87766e9c82c36a21247ade90c10b3b4affacdf88750c685"
+        },
+        {
+          "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\runtime_source_v1\\matlab_command_window_v1.log",
+          "bytes": 161,
+          "sha256": "38724424672efa3480ff8906f8e97539d222fc10a9e134aa6768807052bc1f6d"
+        },
+        {
+          "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\runtime_source_v1\\stderr_v1.txt",
+          "bytes": 212,
+          "sha256": "8ffded23eafdaab44840bdf91cfe49801f1bc94e6b4bd64c1e7f4c7291657ee0"
+        },
+        {
+          "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\runtime_source_v1\\stdout_v1.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "source_results_v1": [
+        {
+          "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\source_results_v1\\normalizer_v1.json",
+          "bytes": 3249,
+          "sha256": "bb7ae9482f8de3d30941db11898d654d0fbf233caf0d48db4ae63b86f706a1ee"
+        }
+      ]
+    },
+    "persisted_training_stage_entries": 0,
+    "persisted_decision_views": 0,
+    "saved_normalizer": 1,
+    "actual_first_training_updates_and_success": "Unknown0..600; notsameasnoneexecuted. Noresult scores persisted orused forrepairchoice.",
+    "complete_source_packages": 0,
+    "v1_immutable_pin_match": true
+  },
+  "technical_repair_review": {
+    "status": "PASS_EXACT_NARROW_DIFF_AND_SAVED_SOURCE_FREE_REPRODUCTION",
+    "changes": [
+      "ledgerfirstrecord directinitialization thenappend",
+      "Dfirstrecord directinitialization thenappend",
+      "summaryfirstrecord directinitialization thenappend atlearnerandnearestsites",
+      "pre-query partialtrainingcheckpoint afterledger firstwrite",
+      "newfunction/output/runtime/review paths2 andcorrespondingstatusguard"
+    ],
+    "outside_whitelist_runner_changes": 0,
+    "shared_prospective_protocol_input_source_and10utility_algorithm_hash_changes": 0,
+    "language_diagnostic": "Original MATLAB:heterogeneousStrucAssignment reproduced, safefirstthen2recordappendPASS, source0, NNmathrerun0",
+    "historical_repair_receipt_note": "Prospective receipt diagnostic_run notyet isprelaunchhistoricalsnapshot; actualSD6023savedreceipts provecompletedlanguagefixture."
+  }
+}

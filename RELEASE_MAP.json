@@ -1,0 +1,15 @@
+{
+  "current_package": "A_v27",
+  "version": "v27.0",
+  "supporting_manuscript": "A27",
+  "package_manifest": "A_v27/FILE_MANIFEST.json",
+  "prior_archive_doi": "10.5281/zenodo.23289833",
+  "prior_scope": "v23.0 reference component only",
+  "new_version_doi": null,
+  "root_historical_materials": [
+    "03_Hesaplama_Eki",
+    "figures",
+    "FILE_MANIFEST.json"
+  ],
+  "publication_status": "Prepared snapshot; consult the actual GitHub release and Zenodo record."
+}

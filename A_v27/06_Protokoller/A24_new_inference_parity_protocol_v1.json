@@ -1,0 +1,146 @@
+{
+  "schema": "A24_NEW_SIMULINK_PARITY_PROTOCOL_V1",
+  "status": "CANDIDATE_AUTHORING_ONLY_NOT_RUN",
+  "version": "A_v24.0_2026_10_11",
+  "purpose": "Deploy independently accepted final A24 learned states through actual Simulink inference and reproduce saved decisions. No new training, online learning or physical mechanics.",
+  "learning_dependency": "Root must independently accept saved learning under A24_prospective_protocol_v3.json before invocation. Producer completion alone is not scientific acceptance.",
+  "input_files": [
+    "02_Veriler/A_source_average_records_v1.csv",
+    "07_Sonuclar/learning_run_v1/checkpoints_v1.json",
+    "07_Sonuclar/learning_run_v1/normalizer_v1.json",
+    "07_Sonuclar/learning_run_v1/decisions_v1.csv",
+    "07_Sonuclar/learning_run_v1/execution_receipt_v1.json"
+  ],
+  "source_dataset_doi": "10.17632/zd6td6svd6.2",
+  "source_licence": "CC-BY-4.0",
+  "code_licence": "MIT",
+  "source_unit": "104 previously exposed average records in26 source conditions; reporting16 averages/4groups. Pair views/checkpoints/seeds are not physical specimens.",
+  "stage": 3,
+  "expected_checkpoints": 55,
+  "expected_decision_views": 1040,
+  "TaskIncremental": {
+    "checkpoints": 20,
+    "methods": [
+      "onehot_no_negotiation",
+      "onehot_negotiated",
+      "walsh_no_negotiation",
+      "walsh_negotiated"
+    ],
+    "seeds": [
+      101,
+      211,
+      307,
+      401,
+      503
+    ],
+    "views_per_checkpoint": 24,
+    "total_views": 480,
+    "unique_reporting_averages": 16,
+    "eligibility": "External task pairs [1,2],[1,3],[1,4]; eligible pair is task information."
+  },
+  "ClassIncremental": {
+    "checkpoints": 35,
+    "methods": [
+      "onehot_no_negotiation",
+      "onehot_negotiated",
+      "walsh_no_negotiation",
+      "walsh_negotiated",
+      "sequential_no_replay",
+      "sequential_replay",
+      "joint_seen_reference"
+    ],
+    "seeds": [
+      101,
+      211,
+      307,
+      401,
+      503
+    ],
+    "views_per_checkpoint": 16,
+    "total_views": 560,
+    "eligibility": "All4 introduced classes at stage3; globalmask[1,1,1,1], no per-query pair."
+  },
+  "predictor_input_order": [
+    "E_MPa",
+    "Hardness_ShoreD",
+    "eligible_label1",
+    "eligible_label2",
+    "eligible_label3",
+    "eligible_label4"
+  ],
+  "forbidden_predictor_inputs": [
+    "true_label",
+    "row_id",
+    "condition_group",
+    "category",
+    "method",
+    "seed",
+    "checkpoint_id",
+    "brand",
+    "file identity"
+  ],
+  "weights": {
+    "slots": 52,
+    "common": "W1(2x4) column-major1:8; b1slots9:12.",
+    "code": "W2(4x8) column-major13:44; b2slots45:52; sigmoid8; dictionary4x8.",
+    "CE": "W2(4x4) column-major13:28; b2slots29:32; unusedslots33:52zero. Softmax4; unuseddictionaryzeros are not physical data.",
+    "json_vectors": "Column-decoded JSON biases restored to original1x4/1xK row shape only; values unchanged."
+  },
+  "normalization": "Frozen first-stage TRAIN36 mean/sampleSD from accepted learning JSON; no refit.",
+  "output_fields_1based": {
+    "1:2": "normalized measurements",
+    "3:10": "code sigmoid8 OR CE probability4 and4unusedNaN",
+    "11:14": "active negative mean squared code distances OR seen-class softmax; inactiveNaN",
+    "15": "best minus second-best score; raw descriptive gap",
+    "16": "forced global class1..4",
+    "17": "exact tie flag",
+    "18": "status1valid,-1invalid. Exact ties forced to lowest eligible label."
+  },
+  "score_kinds": [
+    "negative_mean_squared_code_distance",
+    "seen_class_softmax"
+  ],
+  "selection": "Forced decisions only; no new threshold or transfer of originalA0.15 abstention. Different score kinds are not interchangeable.",
+  "numeric_tolerance": 1e-10,
+  "comparison": "abs(error)<=1e-10+1e-10*abs(reference). NaNmask and forced/tie/status exact. Triangulate JSONweight numeric core, original A24 kernel, actualSLX, savedCSV scores/decisions/correctness; fullpopulation/confusion/failures preserved.",
+  "trace_layout": "Accept exactly N-by18,1-by18-byN or18-by1-byN; explicit permute/reshape, rawshape recorded for eachcheckpoint. First rawtrace saved. Ticks0..N-1 exact.",
+  "timeseries": "Discrete record-index ticks, not physical time or dynamic mechanical simulation.",
+  "from_workspace": "Interpolate=off;SampleTime=1;OutputAfterFinalValue=Holding final value.",
+  "model_example": "TaskIncremental_onehot_no_negotiation_seed101_stage3 declared in advance; savedSLXworkspace contains its actual52weights,dictionary,normalizer,24views. No best-seed choice.",
+  "artifacts": [
+    "04_Simulink_Modelleri/a24_A_inference_v1.slx",
+    "05_Ogrenilmis_Modeller/a24_final_stage_inference_bank_v1.mat",
+    "07_Sonuclar/<fresh_output>/a24_simulink_decisions_v1.csv",
+    "07_Sonuclar/<fresh_output>/a24_simulink_parity_result_v1.json",
+    "07_Sonuclar/<fresh_output>/a24_first_raw_trace_v1.mat"
+  ],
+  "cost": {
+    "new_training": 0,
+    "simulations": 55,
+    "decision_views": 1040,
+    "owned_processes": 1,
+    "maximum_seconds": 300,
+    "timer_owner": "Existing bounded root launcher; no watchdog redesign."
+  },
+  "launch_requirements": [
+    "Different reviewer accepts newcode/protocol before one run.",
+    "Root records different saved-learning acceptance before invocation.",
+    "Root freezes relevant newcode/protocol/input pins; old experiments not rerun.",
+    "Fresh outputdir and no existing same-nameSLX/bank; preservefailures."
+  ],
+  "success": "All55states/1040views reproduce independent kernel and savedCSV within tolerance; actualSLX simulated with realexemplarworkspace; wrong/tie outcomes retained.",
+  "failure_plan": "FAILEDreceipt plus completedpartialdecisions; preserveSLX/earlierresults; diagnose one concrete error. No automaticretry or hidden dimension adaptation.",
+  "claims": {
+    "new_training": false,
+    "online_learning": false,
+    "physical_simulation": false,
+    "new_blind_test": false,
+    "B_source_join": false,
+    "new_manuscript": false
+  },
+  "api_reference": [
+    "https://www.mathworks.com/help/simulink/ug/configure-matlab-function-blocks-programmatically.html",
+    "https://www.mathworks.com/help/simulink/slref/fromworkspace.html",
+    "https://www.mathworks.com/help/simulink/slref/toworkspace.html"
+  ]
+}
