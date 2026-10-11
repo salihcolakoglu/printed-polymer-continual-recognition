@@ -1,5 +1,7 @@
 # A v23 — published-average mechanical-record recognition
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23289833.svg)](https://doi.org/10.5281/zenodo.23289833)
+
 This computational release accompanies **Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records**, by **Salih Çolakoğlu and Mustafa Onat**, Marmara University. It brings together the completed MATLAB analysis, the exact source-average cohort, saved learning results, and four reusable figures with their source tables.
 
 The study examines how linear and small neural classifiers learn three known-pair recognition tasks in sequence, with and without a small memory of earlier records. It makes the data allocation, decision counts and variability across five numerical starts visible. The published average records support an exploratory source-context study; they are not independently identified printed specimens. All records had been inspected previously.
@@ -41,6 +43,18 @@ The fixed cohort is an attributed extraction; source originals are available fro
 
 There is no executed Simulink experiment in A. The workflow figure is a diagram of the completed computation. No B-research material, manuscript, cover letter, private research journal or account information is included here.
 
+## How to cite
+
+If this software contributes to your research, please cite the versioned release below. **This is a voluntary academic request for MIT-licensed code and adds no condition to the MIT licence.** Attribution remains required under CC BY 4.0 for the applicable data, figures, scientific documentation, computational outcomes and saved model files. Retain the original dataset and source-article citations above when reusing their measurements or derived materials.
+
+Çolakoğlu, S.; Onat, M. (2026). *Computational materials for Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records* (A_v23.0) [Computer software and computational materials]. Zenodo. https://doi.org/10.5281/zenodo.23289833
+
+Use the **version-specific DOI** above to identify the archived v23.0 materials used in an analysis. The **concept DOI**, https://doi.org/10.5281/zenodo.23289832, groups the archive's versions; it does not replace the version-specific identifier when reporting the exact version used. `CITATION.cff` supplies the software citation. This citation describes the computational release; it does not assert that the associated manuscript has been published.
+
 ## Release identity
 
-This is **A_v23_Public_Release_v2**, a sharing-package version based on manuscript **A v23**. It does not create another manuscript version or change the completed scientific result. GitHub repository: **printed-polymer-continual-recognition**, https://github.com/salihcolakoglu/printed-polymer-continual-recognition . Owner: **salihcolakoglu** (https://github.com/salihcolakoglu). The repository was created; preparing this local sharing package did not upload its files. The archival DOI has not yet been assigned. Add an actual DOI after archival deposit; do not use the source dataset DOI as the DOI of this software release.
+The scientific software/material version remains **A_v23.0**, published as GitHub tag **v23.0** and archived under https://doi.org/10.5281/zenodo.23289833. Repository: https://github.com/salihcolakoglu/printed-polymer-continual-recognition . The repository's original sharing package is **A_v23_Public_Release_v2**, based on manuscript **A v23**.
+
+The main-branch README, top-level citation and corresponding file-manifest pins receive a documentation-only update identified locally as **A_v23_GitHub_Metadata_Update_v1**. It does not replace the v23.0 tag/archive or create a new scientific result or manuscript version. Code, measurements, figures, results, model states and licence files remain unchanged.
+
+Nested citation/review files and `LICENSE_SCOPE.json` retain their original package metadata as historical provenance, including an initially unassigned archive-DOI field. Use the top-level citation and the DOI links here for the actual archived release. The top-level manifest excludes its own hash; a separate local preparation receipt records that hash. The local preparation guide and receipt are not repository upload files.

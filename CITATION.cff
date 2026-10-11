@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "Cite this release of the original analysis and plotting software, and retain the original data citations."
+message: "If this software contributes to your research, please cite this versioned release. This academic request is voluntary under MIT; retain required source-data attribution."
 type: software
 repository-code: "https://github.com/salihcolakoglu/printed-polymer-continual-recognition"
 title: "Computational materials for Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records"
 version: "A_v23.0"
+doi: "10.5281/zenodo.23289833"
 date-released: "2026-10-11"
 authors:
   - family-names: "Çolakoğlu"
@@ -11,7 +12,7 @@ authors:
   - family-names: "Onat"
     given-names: "Mustafa"
 license: MIT
-abstract: "The package provides original MATLAB analysis, recorded outputs and figure materials for the published-average-record recognition study. Original analysis and plotting/helper code is MIT licensed; source-derived data retain CC BY 4.0 attribution. This is the local A_v23.0 release."
+abstract: "The archived A_v23.0 release provides original MATLAB analysis, recorded outputs and figure materials for the published-average-record recognition study. Original analysis and plotting/helper code is MIT licensed; source-derived measurements and original figures, scientific documentation, computational outcomes and saved models are CC BY 4.0. This software citation does not assert publication of the associated manuscript."
 references:
   - type: data
     title: "FDM 3D Printing Dataset: Printer Type, Materials, Process Parameters, and Tensile, Hardness and Roughness Test Results"

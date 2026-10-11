@@ -5,7 +5,7 @@
   "source_public_package": "A_v23_Public_Release_v1",
   "decision_event": "SD-9010",
   "repository_url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition",
-  "archive_doi": null,
+  "archive_doi": "10.5281/zenodo.23289833",
   "file_count_excluding_this_manifest": 62,
   "files": [
     {
@@ -306,11 +306,12 @@
     },
     {
       "file": "CITATION.cff",
-      "bytes": 1596,
-      "sha256": "a2245a9ab6831b886dc1144a9c4e48d8802a0de5a9845d17986984511fba447a",
+      "bytes": 1835,
+      "sha256": "f23bd42a8c1aab27ed1c27c7f43507fbb94c7cb36eec7f0f339b4d2d89d20859",
       "source_package": "A_v23_Public_Release_v1",
       "byte_identical_to_v1": false,
-      "change": "repository metadata/package identifier only"
+      "change": "Actual archived DOI and voluntary academic citation metadata; scientific content unchanged",
+      "metadata_update_id": "A_v23_GitHub_Metadata_Update_v1"
     },
     {
       "file": "figures/Figure_1_experiment_workflow.pdf",
@@ -498,11 +499,12 @@
     },
     {
       "file": "README.md",
-      "bytes": 6685,
-      "sha256": "5d59c5034360d4c4049f3761825de8ab590d972180a99f6726c6ba004d34e188",
+      "bytes": 8500,
+      "sha256": "12473440057a2ad68da4a49dd1d34d3c3e34153919f1e3f2773f99e732792ca3",
       "source_package": "A_v23_Public_Release_v1",
       "byte_identical_to_v1": false,
-      "change": "repository metadata/package identifier only"
+      "change": "Actual archived DOI and voluntary academic citation metadata; scientific content unchanged",
+      "metadata_update_id": "A_v23_GitHub_Metadata_Update_v1"
     }
   ],
   "source_A_v23_scientific_file_identity": [
@@ -918,5 +920,24 @@
   "new_simulation": 0,
   "public_writes": 0,
   "old_release_or_manuscript_modified": false,
-  "self_hash": "External build receipt records this manifest hash"
+  "self_hash": "External build receipt records this manifest hash",
+  "concept_doi": "10.5281/zenodo.23289832",
+  "metadata_update": {
+    "identifier": "A_v23_GitHub_Metadata_Update_v1",
+    "decision_event": "SD-9036",
+    "parent_package": "A_v23_Public_Release_v2",
+    "applies_to": "GitHub main branch documentation only after immutable v23.0 archive",
+    "changed_files": [
+      "README.md",
+      "CITATION.cff",
+      "FILE_MANIFEST.json"
+    ],
+    "unchanged_payload_pin_count": 60,
+    "archived_tag": "v23.0",
+    "archived_tag_and_record_modified": false,
+    "local_preparation_only": true,
+    "scientific_data_code_figures_results_models_modified": false,
+    "licence_files_modified": false,
+    "note": "Archive DOI identifies original v23.0 scientific release, not a new archive of these later metadata edits."
+  }
 }
