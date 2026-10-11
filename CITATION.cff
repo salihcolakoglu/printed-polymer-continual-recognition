@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Cite this release of the original analysis and plotting software, and retain the original data citations."
+type: software
+repository-code: "https://github.com/salihcolakoglu/printed-polymer-continual-recognition"
+title: "Computational materials for Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records"
+version: "A_v23.0"
+date-released: "2026-10-11"
+authors:
+  - family-names: "Çolakoğlu"
+    given-names: "Salih"
+  - family-names: "Onat"
+    given-names: "Mustafa"
+license: MIT
+abstract: "The package provides original MATLAB analysis, recorded outputs and figure materials for the published-average-record recognition study. Original analysis and plotting/helper code is MIT licensed; source-derived data retain CC BY 4.0 attribution. This is the local A_v23.0 release."
+references:
+  - type: data
+    title: "FDM 3D Printing Dataset: Printer Type, Materials, Process Parameters, and Tensile, Hardness and Roughness Test Results"
+    authors:
+      - family-names: "Aktepe"
+        given-names: "E."
+      - family-names: "Ergün"
+        given-names: "U."
+    version: "2"
+    year: 2026
+    doi: "10.17632/zd6td6svd6.2"
+    license: CC-BY-4.0
+  - type: article
+    title: "HMQ-ES-Stack-GBR: A Hybrid Ensemble Learning Model for Mechanical and Physical Quality Prediction in FDM 3D Printing"
+    authors:
+      - family-names: "Aktepe"
+        given-names: "E."
+      - family-names: "Ergün"
+        given-names: "U."
+    journal: "Micromachines"
+    year: 2026
+    volume: 17
+    start: 859
+    doi: "10.3390/mi17070859"

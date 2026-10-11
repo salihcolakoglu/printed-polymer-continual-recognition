@@ -1,0 +1,162 @@
+{
+  "files": [
+    {
+      "file": "file_manifest_v1.json",
+      "sha256": "8ab14d04769c60cf7cb25b52c9a3365a03286ec913dcb1e1617adb7ad37e4d66",
+      "bytes": 4102,
+      "scientific_core_unchanged": false
+    },
+    {
+      "file": "LICENSE_CODE.txt",
+      "sha256": "8dcc7e78f8e4d0ca99f6f9c581484c1dd5d1cf1f71e43238b3e78b8d697dc3c7",
+      "bytes": 1091,
+      "scientific_core_unchanged": false
+    },
+    {
+      "file": "license_scope_v1.json",
+      "sha256": "cffa352c50806c8dd009bc6cb00a801e9b8d64d18e02a8b4677bd4e70cc11a06",
+      "bytes": 780,
+      "scientific_core_unchanged": false
+    },
+    {
+      "file": "matlab_utility/r04nn_adam.m",
+      "sha256": "d9b5ab45e35639acb6e3965f065727fb41e64f2adb0083e45e6a93d8a6fe6b90",
+      "bytes": 1430,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/r04nn_init.m",
+      "sha256": "8d35ec14fa5c6026e7e0dab33a87f053b23bb2d1359a0f096d60ba0418540bf5",
+      "bytes": 1053,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/r04nn_logits.m",
+      "sha256": "eaf99857f54949c4d4752f3cf8a09a5bf3722873a4faaae475b8b945793fd31c",
+      "bytes": 973,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/r04nn_lossgrad.m",
+      "sha256": "6b7a4e40fc6a39ca97c887f0edcf7b684d5e994959ad45ade11ac608c463701b",
+      "bytes": 1568,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/r04nn_pack.m",
+      "sha256": "826bb4945a7ef7f5e278a5dcbe78335368e6729f78b25f9f929d337dadf6908c",
+      "bytes": 413,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/r04nn_pair_softmax.m",
+      "sha256": "7548c08a3588ab507fa819924f92e95ff6ee433b8b491c8587bacf4df61d57ab",
+      "bytes": 541,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/r04nn_param_names.m",
+      "sha256": "3fdcb854a295e281d25d15969e18bba3b9576dce3df84caac1a1ff30a1301237",
+      "bytes": 233,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/r04nn_predict.m",
+      "sha256": "542c36da2ff6fe469ff7ab27121a32d7254c0b6f858e9991e6d0ebe71920b27d",
+      "bytes": 186,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/r04nn_unpack.m",
+      "sha256": "27aebdd5ea36e0a56a617e3a6d82355b75e15052e05a5d63604b09845de2024d",
+      "bytes": 361,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "matlab_utility/run_r04nn_math_checks.m",
+      "sha256": "92dfa378b41c50cb6af8b50ae75b39b3bc741e1f1ed64e381a632717d4449be4",
+      "bytes": 5729,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "prospective_protocol_v1.json",
+      "sha256": "8b4c1b579889a7cedb6b652d47f1ae95ffe546793ae4e77eb699231d31ec46ea",
+      "bytes": 13080,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "README.txt",
+      "sha256": "565364f7f8694869a69a695337d145e521b3c4bacfd8297ca924fe6d0f25d5a1",
+      "bytes": 1493,
+      "scientific_core_unchanged": false
+    },
+    {
+      "file": "review/launch_acceptance_v2.json",
+      "sha256": "5bfae9a5d1948b92494da6a77e91bba327829f03ad1a103e62117b6ec1df9856",
+      "bytes": 20836,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "run_r04_source_experiment_v2.m",
+      "sha256": "284624f7194920bbef3d1de2f14fd2ddb932ab34942a0d5ee6b3205801fb760a",
+      "bytes": 12573,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "source_results_v2/decision_rows_v1.csv",
+      "sha256": "fed3810476d8a09b17e3719bc42d15f918bb5ac69852edcd9d1700eba07d0be2",
+      "bytes": 3616304,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "source_results_v2/execution_receipt_v1.json",
+      "sha256": "935623bcfc93a3cd8705cf90fdc281ef7ccfd957ea033fc0fc09467721e02607",
+      "bytes": 591,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "source_results_v2/models_and_optimizer_states_v1.mat",
+      "sha256": "5b519d60112541512b17770cb49f17aa6accd297d24fd1c8be111fdd6af6f963",
+      "bytes": 2228096,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "source_results_v2/normalizer_v1.json",
+      "sha256": "bb7ae9482f8de3d30941db11898d654d0fbf233caf0d48db4ae63b86f706a1ee",
+      "bytes": 3249,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "source_results_v2/task_stage_summaries_v1.json",
+      "sha256": "b1f5c521df3f10ac48a37e44950c0d1f2c89b5818c8c57ae940964a797a1fd2c",
+      "bytes": 482164,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "source_results_v2/training_ledger_v1.json",
+      "sha256": "8b24a489fd82c7182580fb7f937af1b044d2e1a8a36ce0b993318e3ee8bb4a8d",
+      "bytes": 50706,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "staged_input_manifest_v1.json",
+      "sha256": "06496d8264332caa2433c1a71a4eff524a553a5acbeb5a8f35b27e3b73bb90f6",
+      "bytes": 1399,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "staged_source_records_v1.csv",
+      "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+      "bytes": 16440,
+      "scientific_core_unchanged": true
+    },
+    {
+      "file": "THIRD_PARTY_DATA_NOTICE.txt",
+      "sha256": "ec10e35de2a044162fb1e89a54e59d6c9b68d747f8fd1af02195d1809243194c",
+      "bytes": 1249,
+      "scientific_core_unchanged": false
+    }
+  ],
+  "scientific_core_files": 21,
+  "own_manifest_hash_in_build_receipt": true
+}

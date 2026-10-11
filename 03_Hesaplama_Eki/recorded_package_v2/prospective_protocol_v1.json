@@ -1,0 +1,260 @@
+{
+  "schema": "N8D_R04_EXPLORATORY_TASKIL_PROSPECTIVE_PROTOCOL_V1",
+  "status": "FROZEN_CANDIDATE_INPUTS_STAGED_REQUIRES_INDEPENDENT_REVIEW_BEFORE_SOURCE_TRAINING",
+  "prepared_at_utc": "2026-10-07T21:42:26.101483+00:00",
+  "prepared_at_istanbul": "2026-10-08T00:42:26.101483+03:00",
+  "authority": {
+    "numeric": "SD-5971/BK-0054 resolved",
+    "source_scope": "SD-5988/BK-0057 resolved"
+  },
+  "question": "In a reused, native-control-matched four-context source-record cohort, can fixed small response-only inverse learners acquire three known-pair tasks, and does limited replay retain earlier decisions after later tasks?",
+  "hypotheses": [
+    "Measured modulus/hardness can support bounded inverse source-context recognition.",
+    "Four-hidden-unit NN may improve decisions over the linear and nearest-response comparators.",
+    "Replay may preserve earlier actually learned tasks; no benefit is assumed."
+  ],
+  "claim_limit": "Reused exploratory source-record TaskIL, not blind TEST, physical IID, chemistry-only causal classification, complete physical profiles, dynamic forward-model-assisted CL, calibrated probabilities, or manufacturing validation.",
+  "source": {
+    "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\Gelen_Kaynaklar\\Hedefli_Arsiv_2026_10_07\\R04_Aktepe_Ergun_FDM_Mechanical\\3d_printing_parameters_dataset_original_v2.xlsx",
+    "bytes": 60765,
+    "sha256": "fc85cbbe019090c55740d86e8bb451159443fa68100cd0a7c99dbdd75330a591",
+    "dataset_doi": "10.17632/zd6td6svd6.2",
+    "article_doi": "10.3390/mi17070859",
+    "license": "CC BY4.0",
+    "rights_card": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8B_R04_operation_card\\agents\\source_card\\R04_exact_operation_novelty_card_v1.json",
+      "bytes": 36872,
+      "sha256": "af54dc03f1cb16f7b73d056e57f73c4d8cc27db4d58c3b17a933a112d09da573"
+    },
+    "schema_card": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8B_R04_operation_card\\agents\\source_card\\selected_104_four_channel_schema_audit_v1.json",
+      "bytes": 61930,
+      "sha256": "c9fda7fb8592f9f1fe4fa6128ca9ef7ad6a7ed756bd1fad874f3fca93eeaa845"
+    },
+    "source_unit": "One published filtered/averaged material+printer+native-condition row; physical replicate n/covariance/build/batch are unknown."
+  },
+  "selection": {
+    "rule": "All 26 inherited exact common native control keys on closed K1 and all four source contexts; no response-based selection, no complete-case row removal.",
+    "contexts": {
+      "1": "PLA+",
+      "2": "ABS",
+      "3": "PETG",
+      "4": "PLA-CF"
+    },
+    "records": 104,
+    "condition_groups": 26,
+    "split": {
+      "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8B_R04_operation_card\\agents\\split_review\\prospective_condition_group_split_v1.json",
+      "bytes": 45939,
+      "sha256": "2758493bbf7cbde90f914c1a9002f1e47c9b84ab4a294f2d6e91040f44cd3404"
+    },
+    "reuse_without_resplit": true,
+    "TRAIN": {
+      "groups": 18,
+      "unique_records": 72
+    },
+    "FIT_DEVELOPMENT": {
+      "groups": 4,
+      "unique_records": 16
+    },
+    "REPORTING_DEVELOPMENT": {
+      "groups": 4,
+      "unique_records": 16
+    },
+    "prior_exposure": "All104 records and prior derived query scores already inspected. SD5168 was R04 reporting-development static-query194/252 withBOTH0/6, not CL or newblindTEST."
+  },
+  "features": {
+    "d": 2,
+    "columns": [
+      "Modulus (MPa)",
+      "Hardness AVG"
+    ],
+    "units": [
+      "MPa",
+      "Shore D as stated by source paper"
+    ],
+    "roles": [
+      "Measured tensile stiffness aggregate",
+      "Measured indentation hardness aggregate"
+    ],
+    "selection_reason": "Complete measured channels for every held104 record, chosen before new learning results. Strain has13 PETG missing values; roughness has an unresolvedzero. No missingness mask, imputation, clipping or row dropping.",
+    "excluded_from_X": [
+      "Material/source label",
+      "SampleNo/Excelrow",
+      "traceID/conditionID/hash/file/order/partition",
+      "PrinterType",
+      "layer/infill/pattern/speed",
+      "nozzle/bed temperatures",
+      "strain/roughness",
+      "peak stress/load/geometry"
+    ],
+    "scaling": {
+      "fit_population": "Only T1 TRAIN36 original averaged rows (18groups times labels1/2)",
+      "operation": "Feature mean and sample standard deviation; if a feature standard deviation is exactly zero, use1 and flag constant channel.",
+      "causality": "Save/freeze normalizer before reading future labels into training; same scaler for every model/arm/stage. No all-source, future-task or DEV/REPORT scale fitting."
+    }
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "labels": [
+        1,
+        2
+      ],
+      "name": "PLA+ versus ABS"
+    },
+    {
+      "id": 2,
+      "labels": [
+        1,
+        3
+      ],
+      "name": "PLA+ versus PETG"
+    },
+    {
+      "id": 3,
+      "labels": [
+        1,
+        4
+      ],
+      "name": "PLA+ versus PLA-CF"
+    }
+  ],
+  "information_access": {
+    "TaskIL": "Known candidate pair is public and identical for all methods. Mask applies at loss and prediction; it is not an inferred chemical identity.",
+    "training_X": "Exactly two response columns; task masks and supervised Y are separate arguments.",
+    "shared_anchor": "The same PLA+ source rows recur in all three task views. Task-example count is not unique physical/source-record count.",
+    "future_task_evaluation": "Full stage-by-all-task matrices retained; not-yet-trained tasks marked future-task diagnostics, not old-task retention."
+  },
+  "models": {
+    "global_K": 4,
+    "linear": {
+      "architecture": "d->K",
+      "parameters": 12
+    },
+    "MLP": {
+      "architecture": "d->4 tanh->K",
+      "parameters": 32,
+      "hidden_units": 4
+    },
+    "initialization": "Xavier uniform for each weight matrix; zero biases. Same architecture/seed initialization shared across arms; not selected by outcomes.",
+    "nearest": "At eachstage use unique seen TRAIN response rows restricted to the knownpair. Both candidate labels must have training references, else nonselection(reason=unseen_candidate). Compute each candidate minimum squared standardized distance; use softmax of negative distances only as uncalibrated comparison score."
+  },
+  "training": {
+    "seeds": [
+      101,
+      211,
+      307,
+      401,
+      503
+    ],
+    "full_batch_steps_per_stage": 600,
+    "loss": "Weighted mean pair-masked cross entropy +0.5*lambda*sum(weight_matrices^2); no bias penalty.",
+    "optimizer": {
+      "name": "Adam",
+      "learning_rate": 0.02,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "epsilon": 1e-08,
+      "lambda": 0.0001
+    },
+    "full_batch": true,
+    "no_early_stopping_or_hyperparameter_search": true,
+    "sequential_no_replay": "Continue parameters and Adam state; eachstage only its36TRAIN taskviews.",
+    "sequential_replay": {
+      "state": "Continue parameters and Adam state, stage1 identical to no_replay.",
+      "selection": "For each previously completed task and each of its2labels retain the first2 TRAIN rows by frozen group order; every replay row retains its original taskmask. No quality/outcome-based exemplar choice.",
+      "capacity": "Maximum8 stored taskviews beforeT3, from6 unique original rows and2 unique controlgroups; sharedPLA+ can recur with different taskmasks.",
+      "loss_weights": "Current task mean weight1 and storedmemory mean weight0.5, normalized by total1.5. Withoutmemory current weights sum1.",
+      "update_budget": "Same600 parameter updates/current36-row exposure perstage; replay adds gradient-example evaluations and historical information. Do not claim equal compute or equal total data access."
+    },
+    "joint_seen_reference": "At eachstage retrain from thatarchitecture/seed initialization with all historical taskviews including shared-anchor repetitions and each original taskmask. No future records; optimizer reset.600updates. This has richer past access and is not a mathematical upperbound.",
+    "source_occurrences_per_step": {
+      "no_replay": [
+        36,
+        36,
+        36
+      ],
+      "replay": [
+        36,
+        40,
+        44
+      ],
+      "joint_seen": [
+        36,
+        72,
+        108
+      ]
+    },
+    "seed_interpretation": "Optimization sensitivity only, not5physicalexperiments or independent specimens."
+  },
+  "decoder": {
+    "native_score": "For each candidatepair take softmax scores; retain forcedargmax diagnostic and bothscores. Scores are not calibrated probabilities.",
+    "nonselection_rule": "If scores nonfinite -> failure; if abs(scoreA-scoreB)<0.15 -> nonselection; exactties -> nonselection. No BOTH candidate-return behavior or outcome-driven threshold adjustment.",
+    "margin_threshold": 0.15,
+    "threshold_role": "Engineering comparison rule frozen before this run; not physical uncertainty calibration."
+  },
+  "evaluation": {
+    "partitions": [
+      "TRAIN",
+      "FIT_DEVELOPMENT",
+      "REPORTING_DEVELOPMENT"
+    ],
+    "all_stages": [
+      1,
+      2,
+      3
+    ],
+    "all_tasks": [
+      1,
+      2,
+      3
+    ],
+    "per_task_unique_rows": {
+      "TRAIN": 36,
+      "FIT_DEVELOPMENT": 8,
+      "REPORTING_DEVELOPMENT": 8
+    },
+    "final_reporting_views": 24,
+    "final_reporting_unique_rows": 16,
+    "final_reporting_group_union": 4,
+    "counts": [
+      "selected_correct",
+      "selected_wrong",
+      "nonselection",
+      "failure",
+      "forced_argmax_correct",
+      "forced_argmax_defined",
+      "decision_views",
+      "unique_original_rows",
+      "unique_condition_groups"
+    ],
+    "denominators": "Every prespecified taskquery remains; failures/nonselection cannot be dropped. Acrosspair counts sumdecisionviews and useunion for originalrows/conditiongroups.",
+    "acquisition_marker": "For eacharchitecture/arm/seed newly learned task reaches at least6/8 FIT_DEVELOPMENT forcedargmax correct at its acquisitionstage; engineering marker only, notsignificance. No run is removed if it fails.",
+    "retention": "For each oldtask compare final forcedaccuracy and selectedcorrectfraction to its first-acquired stage; also show allstages. Replay benefit paired byarchitecture/seed; preserve negatives. Never-learned tasks are labeled failedacquisition, notsuccessfulforgettingprevention.",
+    "statistics": "Counts and seedmin/median/max; no physical confidence intervals, hypothesis-test pvalues or newmanufacturinggeneralization."
+  },
+  "execution_controls": {
+    "new_mathematical_checks": "Mixedtaskmask weightedCE finite-differencegrad and analytic knowncase forbotharchitectures; newutility only, sourcevalues0.",
+    "source_run_limit": "One prospective experiment package;2architectures x3arms x5seeds x3stages=90trainingstagefits plus one nearest-reference matrix; every result retained.",
+    "wall_time_limit_seconds": 1200,
+    "failure_rule": "Preserve partialrun and failures; one evidence-based technical repair only under separatelyversionedprospective receipt. No accuracy-driven architecture/feature/threshold/order/seed changes.",
+    "independent_review": "Exact protocol/inputpin/code before source launch and savedresults arithmetic/adherence after; do not retrain during independent review."
+  },
+  "confounding": [
+    "Material-specific nozzle/bed settings remain tied to label: same nativecontrolkey is not identical fullthermalhistory.",
+    "Source averages/cleaning and unknown replicate counts prevent rawnoise/variance reconstruction.",
+    "Formulation/grade/source manufacture/lot unresolved; labels are limited source contexts."
+  ],
+  "model_role": "No R04 dynamic fit or Simulink-derived value entersclassifierX. R06 harmonic operator is an independent bounded sourcebranch; it is not same-specimen modelassistedCL evidence.",
+  "success_criteria": [
+    "Protocol and cohort hashes independently reviewed before launch",
+    "All90stagefits and decisionviews or explicitfailures saved",
+    "Newtask learning and oldtask retention shown together",
+    "No synthetic samples or sourceprofilesinvented",
+    "Contribution assessed afterresults, not fromarchitectureexistence"
+  ],
+  "B_plan": "If technicaladmission fails repair exactcontract once or holdbranch. If NN/CL fails preserve negative and writelimits; continue independent R06/source/literature work. No silent strongerphysicalclaim.",
+  "medium_term": "One auditable exploratorysource-record NN/CL result with knownlimitations.",
+  "long_term": "Only actualsource-specific scientificfindings and closecomparison can justify firstpapercontribution; no publicationorfinishdatepromise."
+}

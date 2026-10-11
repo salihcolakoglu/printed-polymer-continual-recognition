@@ -1,0 +1,128 @@
+[
+  {
+    "file": "prospective_protocol_v1.json",
+    "bytes": 13080,
+    "sha256": "8b4c1b579889a7cedb6b652d47f1ae95ffe546793ae4e77eb699231d31ec46ea",
+    "source_unchanged": true
+  },
+  {
+    "file": "staged_source_records_v1.csv",
+    "bytes": 16440,
+    "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+    "source_unchanged": true
+  },
+  {
+    "file": "staged_input_manifest_v1.json",
+    "bytes": 1399,
+    "sha256": "06496d8264332caa2433c1a71a4eff524a553a5acbeb5a8f35b27e3b73bb90f6",
+    "source_unchanged": true
+  },
+  {
+    "file": "run_r04_source_experiment_v2.m",
+    "bytes": 12573,
+    "sha256": "284624f7194920bbef3d1de2f14fd2ddb932ab34942a0d5ee6b3205801fb760a",
+    "source_unchanged": true
+  },
+  {
+    "file": "review/launch_acceptance_v2.json",
+    "bytes": 20836,
+    "sha256": "5bfae9a5d1948b92494da6a77e91bba327829f03ad1a103e62117b6ec1df9856",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_adam.m",
+    "bytes": 1430,
+    "sha256": "d9b5ab45e35639acb6e3965f065727fb41e64f2adb0083e45e6a93d8a6fe6b90",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_init.m",
+    "bytes": 1053,
+    "sha256": "8d35ec14fa5c6026e7e0dab33a87f053b23bb2d1359a0f096d60ba0418540bf5",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_logits.m",
+    "bytes": 973,
+    "sha256": "eaf99857f54949c4d4752f3cf8a09a5bf3722873a4faaae475b8b945793fd31c",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_lossgrad.m",
+    "bytes": 1568,
+    "sha256": "6b7a4e40fc6a39ca97c887f0edcf7b684d5e994959ad45ade11ac608c463701b",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_pack.m",
+    "bytes": 413,
+    "sha256": "826bb4945a7ef7f5e278a5dcbe78335368e6729f78b25f9f929d337dadf6908c",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_pair_softmax.m",
+    "bytes": 541,
+    "sha256": "7548c08a3588ab507fa819924f92e95ff6ee433b8b491c8587bacf4df61d57ab",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_param_names.m",
+    "bytes": 233,
+    "sha256": "3fdcb854a295e281d25d15969e18bba3b9576dce3df84caac1a1ff30a1301237",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_predict.m",
+    "bytes": 186,
+    "sha256": "542c36da2ff6fe469ff7ab27121a32d7254c0b6f858e9991e6d0ebe71920b27d",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/r04nn_unpack.m",
+    "bytes": 361,
+    "sha256": "27aebdd5ea36e0a56a617e3a6d82355b75e15052e05a5d63604b09845de2024d",
+    "source_unchanged": true
+  },
+  {
+    "file": "matlab_utility/run_r04nn_math_checks.m",
+    "bytes": 5729,
+    "sha256": "92dfa378b41c50cb6af8b50ae75b39b3bc741e1f1ed64e381a632717d4449be4",
+    "source_unchanged": true
+  },
+  {
+    "file": "source_results_v2/decision_rows_v1.csv",
+    "bytes": 3616304,
+    "sha256": "fed3810476d8a09b17e3719bc42d15f918bb5ac69852edcd9d1700eba07d0be2",
+    "source_unchanged": true
+  },
+  {
+    "file": "source_results_v2/task_stage_summaries_v1.json",
+    "bytes": 482164,
+    "sha256": "b1f5c521df3f10ac48a37e44950c0d1f2c89b5818c8c57ae940964a797a1fd2c",
+    "source_unchanged": true
+  },
+  {
+    "file": "source_results_v2/training_ledger_v1.json",
+    "bytes": 50706,
+    "sha256": "8b24a489fd82c7182580fb7f937af1b044d2e1a8a36ce0b993318e3ee8bb4a8d",
+    "source_unchanged": true
+  },
+  {
+    "file": "source_results_v2/normalizer_v1.json",
+    "bytes": 3249,
+    "sha256": "bb7ae9482f8de3d30941db11898d654d0fbf233caf0d48db4ae63b86f706a1ee",
+    "source_unchanged": true
+  },
+  {
+    "file": "source_results_v2/models_and_optimizer_states_v1.mat",
+    "bytes": 2228096,
+    "sha256": "5b519d60112541512b17770cb49f17aa6accd297d24fd1c8be111fdd6af6f963",
+    "source_unchanged": true
+  },
+  {
+    "file": "source_results_v2/execution_receipt_v1.json",
+    "bytes": 591,
+    "sha256": "935623bcfc93a3cd8705cf90fdc281ef7ccfd957ea033fc0fc09467721e02607",
+    "source_unchanged": true
+  }
+]
