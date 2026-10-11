@@ -6,8 +6,8 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 67,
-      "sha256": "ba2a06f8b802fc7b9384f8648049eb2ecd62f041b76b0bd934f8ad586016073b",
+      "bytes": 60,
+      "sha256": "128fcbb1e7422aa06a0c62bfcbe764d001f9c398e3f818a9fa689af8e04d55f1",
       "license": "See LICENSE_SCOPE.json and source-specific notices"
     },
     {
