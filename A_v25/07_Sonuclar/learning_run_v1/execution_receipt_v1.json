@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETED_PRODUCER_PENDING_DIFFERENT_SAVED_REVIEW",
+  "started_at_utc": "11-Oct-2026 02:42:01",
+  "finished_at_utc": "11-Oct-2026 02:43:09",
+  "elapsed_seconds": 68.1131559,
+  "MATLAB_version": "26.1.0.3346908 (R2026a) Update 5",
+  "stage_entries": 165,
+  "updates": 99000,
+  "decisions": 17550,
+  "source_average_records": 104,
+  "new_blind_test": false,
+  "physical_validation": false,
+  "new_Simulink": false
+}

@@ -1,0 +1,34 @@
+{
+  "status": "STAGED_INPUT_NOT_TRAINING_ACCEPTANCE",
+  "source": {
+    "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\Gelen_Kaynaklar\\Hedefli_Arsiv_2026_10_07\\R04_Aktepe_Ergun_FDM_Mechanical\\3d_printing_parameters_dataset_original_v2.xlsx",
+    "bytes": 60765,
+    "sha256": "fc85cbbe019090c55740d86e8bb451159443fa68100cd0a7c99dbdd75330a591"
+  },
+  "protocol": {
+    "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\prospective_protocol_v1.json",
+    "bytes": 13080,
+    "sha256": "8b4c1b579889a7cedb6b652d47f1ae95ffe546793ae4e77eb699231d31ec46ea"
+  },
+  "staged_csv": {
+    "path": "C:\\Springer ve Tübitak Ulakbilim Tr Dizin Çalışmaları\\_research\\night_article_execution_2026_10_08\\N8D_R04_prospective_protocol\\staged_source_records_v1.csv",
+    "bytes": 16440,
+    "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4"
+  },
+  "row_count": 104,
+  "group_count": 26,
+  "partition_counts": {
+    "TRAIN": 72,
+    "FIT_DEVELOPMENT": 16,
+    "REPORTING_DEVELOPMENT": 16
+  },
+  "model_X_columns": [
+    "E_MPa",
+    "Hardness_ShoreD"
+  ],
+  "all_other_columns_audit_only": true,
+  "imputed_or_dropped_rows": 0,
+  "plan_event_id": "SD-5996",
+  "source_raw_unknowns_retained": true,
+  "source_training_runs": 0
+}

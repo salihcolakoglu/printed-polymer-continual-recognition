@@ -1,0 +1,31 @@
+{
+  "status": "DRAFT_FOR_REVIEW_NOT_AN_EXISTING_DEPOSIT",
+  "title": "Computational materials for Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records",
+  "resource_type": "software",
+  "version": "v25.0",
+  "publication_date": null,
+  "doi": null,
+  "creators": [
+    {
+      "name": "Çolakoğlu, Salih",
+      "affiliation": "Marmara University",
+      "orcid": "0000-0002-2180-5073"
+    },
+    {
+      "name": "Onat, Mustafa",
+      "affiliation": "Marmara University",
+      "orcid": "0000-0003-4304-3361"
+    }
+  ],
+  "description": "MATLAB learning code, source-derived data, saved results and model states, Simulink inference models, and eight figures supporting Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records. The cohort consists of 104 published average records in 26 source-condition groups. Both learning settings and all five numerical starts are retained. Code is MIT; scientific artifacts are CC BY 4.0 within authors rights; LICENSE_SCOPE.json states the file-group terms. Cite the original data and method sources.",
+  "licenses": [
+    "MIT",
+    "CC-BY-4.0"
+  ],
+  "repository": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition",
+  "source_dataset": "https://doi.org/10.17632/zd6td6svd6.2",
+  "source_article": "https://doi.org/10.3390/mi17070859",
+  "previous_version_doi": "10.5281/zenodo.23289833",
+  "concept_doi": "10.5281/zenodo.23289832",
+  "instructions": "Use the existing GitHub-Zenodo integration for a new version. Assign no invented DOI or publication date. Confirm the archive bytes and displayed mixed-license scope after publication."
+}

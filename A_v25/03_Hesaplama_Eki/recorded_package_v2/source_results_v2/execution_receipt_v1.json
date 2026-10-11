@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED_FROZEN_EXPLORATORY_SOURCE_PACKAGE_NOT_PHYSICAL_VALIDATION",
+  "started_at_utc": "07-Oct-2026 22:01:37",
+  "finished_at_utc": "07-Oct-2026 22:19:46",
+  "elapsed_seconds": 1088.3986789,
+  "matlab_version": "26.1.0.3346908 (R2026a) Update 5",
+  "matlab_release": "2026a",
+  "source_records": 104,
+  "source_condition_groups": 26,
+  "training_stage_entries": 90,
+  "successful_training_stages": 90,
+  "failed_training_stages": 0,
+  "decision_views": 14508,
+  "summary_rows": 837,
+  "new_blind_test": false,
+  "physical_validation": false,
+  "model_assisted_CL": false
+}

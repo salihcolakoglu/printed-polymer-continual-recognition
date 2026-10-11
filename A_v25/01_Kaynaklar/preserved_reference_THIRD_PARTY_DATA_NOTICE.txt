@@ -1,0 +1,9 @@
+Source data and attribution notice
+
+Aktepe, E.; Ergün, U. FDM 3D Printing Dataset: Printer Type, Materials, Process Parameters, and Tensile, Hardness and Roughness Test Results. Mendeley Data, Version 2 (2026). DOI: https://doi.org/10.17632/zd6td6svd6.2
+Associated article: https://doi.org/10.3390/mi17070859
+Source measurements: Creative Commons Attribution 4.0, https://creativecommons.org/licenses/by/4.0/
+
+The staged CSV is the fixed extracted analysis cohort from the published source: 104 average rows in 26 processing-condition groups. Analytical extraction, allocation and subsequent transformations are described by the frozen protocol and input manifest. Original source files are unchanged. These averages are not claimed as 104 independent printed specimens. Source-derived data remain attributed and are not relicensed as MIT software.
+
+LICENSE_CODE.txt applies only to the eleven original MATLAB files listed in license_scope_v1.json. Protocols, manifests, saved measurements, learned states and recorded outcomes are scientific documentation/data supplied for reproducibility; the MIT software grant does not erase third-party attribution or apply to proprietary MATLAB software. No MATLAB runtime or proprietary toolbox is bundled.
