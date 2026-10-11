@@ -1,0 +1,5 @@
+population,average_records,condition_groups
+All source averages,104,26
+TRAIN,72,18
+FIT_DEVELOPMENT,16,4
+REPORTING_DEVELOPMENT,16,4

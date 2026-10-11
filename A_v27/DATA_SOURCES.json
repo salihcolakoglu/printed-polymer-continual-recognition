@@ -1,0 +1,57 @@
+{
+  "schema": "A27_DATA_PROVENANCE_V1",
+  "package_version": "v27.0",
+  "status": "VERSIONED_PACKAGE_PROVENANCE",
+  "source_dataset": {
+    "authors": [
+      "Aktepe, E.",
+      "Ergün, U."
+    ],
+    "title": "FDM 3D Printing Dataset: Printer Type, Materials, Process Parameters, and Tensile, Hardness and Roughness Test Results",
+    "repository": "Mendeley Data",
+    "version": 2,
+    "year": 2026,
+    "doi": "10.17632/zd6td6svd6.2",
+    "url": "https://doi.org/10.17632/zd6td6svd6.2",
+    "license": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_workbook_sha256": "fc85cbbe019090c55740d86e8bb451159443fa68100cd0a7c99dbdd75330a591",
+    "original_workbook_bytes": 60765,
+    "original_workbook_in_this_folder": false
+  },
+  "source_article": {
+    "authors": [
+      "Aktepe, E.",
+      "Ergün, U."
+    ],
+    "title": "HMQ-ES-Stack-GBR: A Hybrid Ensemble Learning Model for Mechanical and Physical Quality Prediction in FDM 3D Printing",
+    "journal": "Micromachines",
+    "year": 2026,
+    "volume": 17,
+    "article": 859,
+    "doi": "10.3390/mi17070859",
+    "url": "https://doi.org/10.3390/mi17070859"
+  },
+  "derived_cohort": {
+    "file": "02_Veriler/A_source_average_records_v1.csv",
+    "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+    "records": 104,
+    "condition_groups": 26,
+    "TRAIN_records": 72,
+    "FIT_records": 16,
+    "REPORT_records": 16,
+    "modifications": [
+      "Fixed common-condition cohort extraction",
+      "Fixed grouped allocations",
+      "First-stage TRAIN-only normalization"
+    ],
+    "inputs": [
+      "E_MPa",
+      "Hardness_ShoreD"
+    ],
+    "source_original_changed": false,
+    "unit": "Published average record",
+    "previously_inspected": true
+  },
+  "preserved_reference_notice": "01_Kaynaklar/preserved_reference_THIRD_PARTY_DATA_NOTICE.txt"
+}

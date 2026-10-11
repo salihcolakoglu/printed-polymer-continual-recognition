@@ -1,0 +1,1 @@
+Manuscript A27 Figures 5–8. These four figures use the same accepted numerical summaries as learning_v5; title-only manuscript exports. PNG for viewing; PDF/SVG for scalable graphics. See ../../FIGURE_MAP.csv and ../../REPRODUCIBILITY.md. The portable MATLAB producer is ../../03_MATLAB_Kodlari/a25_plot_editorial_titles_v1.m.
