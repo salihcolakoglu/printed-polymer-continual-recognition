@@ -1,0 +1,20 @@
+{
+  "package_version": "v27.0",
+  "supporting_manuscript": "A27",
+  "manuscript_title": "Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records",
+  "manuscript_files": {
+    "A_Manuscript_v27.docx": "fa0093a9b4edd1af4597ceb00c7326067b300cccce1b945c0f15f369d815699b",
+    "A_Manuscript_v27.pdf": "9fadff69034bb89838821d4e8a3585781f2856538403e8ab58e75a8e1a6f3cab",
+    "A_Manuscript_v27.tex": "56987baee14a85a6f10fce4fb83db12ac0e26055f78c6d0b4257d8ae150ecd1d"
+  },
+  "manuscript_files_in_public_package": false,
+  "accepted_computational_base": {
+    "package": "A_v25_Public_Release_v3",
+    "verified_commit": "d061ab421ce09f6a37ef34439f1f9d8220a18731",
+    "path": "A_v25"
+  },
+  "scope": "Same accepted code, data, learned states and numerical results. New package metadata, clean manuscript figure titles and portable editorial plot input path.",
+  "new_training_runs": 0,
+  "new_simulations": 0,
+  "new_archive_doi": null
+}

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: >-
+  Cite this exact computational version and retain the original data and
+  method citations. Use the version DOI displayed by Zenodo after archiving.
+type: software
+title: "Computational materials for Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records"
+version: "27.0"
+authors:
+  - family-names: "Çolakoğlu"
+    given-names: "Salih"
+    affiliation: "Marmara University"
+    orcid: "https://orcid.org/0000-0002-2180-5073"
+  - family-names: "Onat"
+    given-names: "Mustafa"
+    affiliation: "Marmara University"
+    orcid: "https://orcid.org/0000-0003-4304-3361"
+repository-code: "https://github.com/salihcolakoglu/printed-polymer-continual-recognition"
+abstract: >-
+  MATLAB learning code, published source-average data, saved models, results,
+  Simulink inference demonstrations, and figures for task-incremental and
+  class-incremental recognition with ordinary and Walsh codes, negotiated
+  learning, replay, and joint-seen comparisons. Supporting manuscript A27.
+  Code is MIT; scientific artifact file-group terms are in LICENSE_SCOPE.json.
+license: MIT
+keywords:
+  - continual learning
+  - task-incremental learning
+  - class-incremental learning
+  - printed polymers
+  - Walsh codes
+  - negotiated representations

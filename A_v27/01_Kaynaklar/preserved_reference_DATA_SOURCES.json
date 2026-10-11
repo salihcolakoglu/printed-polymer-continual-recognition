@@ -1,0 +1,107 @@
+{
+  "schema": "A_V22_DATA_SOURCES_V1",
+  "status": "LOCAL_RELEASE_CANDIDATE_NOT_PUBLIC_DEPOSIT",
+  "source_dataset": {
+    "authors": [
+      "Aktepe, E.",
+      "Ergün, U."
+    ],
+    "title": "FDM 3D Printing Dataset: Printer Type, Materials, Process Parameters, and Tensile, Hardness and Roughness Test Results",
+    "repository": "Mendeley Data",
+    "version": 2,
+    "year": 2026,
+    "doi": "10.17632/zd6td6svd6.2",
+    "url": "https://doi.org/10.17632/zd6td6svd6.2",
+    "license": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_workbook_sha256": "fc85cbbe019090c55740d86e8bb451159443fa68100cd0a7c99dbdd75330a591",
+    "original_workbook_bytes": 60765,
+    "original_workbook_in_this_folder": false
+  },
+  "source_article": {
+    "authors": [
+      "Aktepe, E.",
+      "Ergün, U."
+    ],
+    "title": "HMQ-ES-Stack-GBR: A Hybrid Ensemble Learning Model for Mechanical and Physical Quality Prediction in FDM 3D Printing",
+    "journal": "Micromachines",
+    "year": 2026,
+    "volume": 17,
+    "article": 859,
+    "doi": "10.3390/mi17070859",
+    "url": "https://doi.org/10.3390/mi17070859"
+  },
+  "derivation": {
+    "file": "recorded_package_v2/staged_source_records_v1.csv",
+    "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+    "rows": 104,
+    "condition_groups": 26,
+    "partitions": {
+      "TRAIN": 72,
+      "FIT_DEVELOPMENT": 16,
+      "REPORTING_DEVELOPMENT": 16
+    },
+    "inputs": [
+      "E_MPa",
+      "Hardness_ShoreD"
+    ],
+    "trace_fields": [
+      "row_id",
+      "source_excel_row",
+      "condition_group",
+      "native_key_id"
+    ],
+    "selection_rule": "All 26 inherited exact common native control keys on closed K1 and all four source contexts; no response-based selection, no complete-case row removal.",
+    "transformations": [
+      "Fixed native-condition common support extraction",
+      "Fixed group allocations",
+      "T1 TRAIN-only feature normalization in normalizer_v1.json",
+      "Known candidate-pair task views; PLA+ source rows reused across tasks"
+    ],
+    "original_source_modified": false,
+    "averages_are_independent_specimens": false,
+    "all_records_previously_exposed": true,
+    "new_physical_data": false,
+    "frozen_protocol": "recorded_package_v2/prospective_protocol_v1.json",
+    "input_manifest": "recorded_package_v2/staged_input_manifest_v1.json"
+  },
+  "outputs": [
+    {
+      "file": "recorded_package_v2/source_results_v2/decision_rows_v1.csv",
+      "bytes": 3616304,
+      "sha256": "fed3810476d8a09b17e3719bc42d15f918bb5ac69852edcd9d1700eba07d0be2"
+    },
+    {
+      "file": "recorded_package_v2/source_results_v2/execution_receipt_v1.json",
+      "bytes": 591,
+      "sha256": "935623bcfc93a3cd8705cf90fdc281ef7ccfd957ea033fc0fc09467721e02607"
+    },
+    {
+      "file": "recorded_package_v2/source_results_v2/models_and_optimizer_states_v1.mat",
+      "bytes": 2228096,
+      "sha256": "5b519d60112541512b17770cb49f17aa6accd297d24fd1c8be111fdd6af6f963"
+    },
+    {
+      "file": "recorded_package_v2/source_results_v2/normalizer_v1.json",
+      "bytes": 3249,
+      "sha256": "bb7ae9482f8de3d30941db11898d654d0fbf233caf0d48db4ae63b86f706a1ee"
+    },
+    {
+      "file": "recorded_package_v2/source_results_v2/task_stage_summaries_v1.json",
+      "bytes": 482164,
+      "sha256": "b1f5c521df3f10ac48a37e44950c0d1f2c89b5818c8c57ae940964a797a1fd2c"
+    },
+    {
+      "file": "recorded_package_v2/source_results_v2/training_ledger_v1.json",
+      "bytes": 50706,
+      "sha256": "8b24a489fd82c7182580fb7f937af1b044d2e1a8a36ce0b993318e3ee8bb4a8d"
+    }
+  ],
+  "licence_scope_file": "recorded_package_v2/license_scope_v1.json",
+  "source_notice_file": "recorded_package_v2/THIRD_PARTY_DATA_NOTICE.txt",
+  "public_repository_url": null,
+  "release_doi": null,
+  "public_deposit_claimed": false,
+  "simulink_in_A_experiment": false,
+  "new_training_performed": false
+}

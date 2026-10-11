@@ -1,0 +1,9 @@
+manuscript_figure,file_stem,formats,numerical_source,producer,scope
+1,figures/Figure_1_experiment_workflow,png;pdf;svg,figures/Figure_1_plot_data.csv,figures/redraw_A_v22_figures.m,Reference comparison
+2,figures/Figure_2_mechanical_records,png;pdf;svg,figures/Figure_2_plot_data.csv,figures/redraw_A_v22_figures.m,Reference comparison
+3,figures/Figure_3_final_reporting_decisions,png;pdf;svg,figures/Figure_3_plot_data.csv,figures/redraw_A_v22_figures.m,Reference comparison
+4,figures/Figure_4_paired_old_task_gain,png;pdf;svg,figures/Figure_4_plot_data.csv,figures/redraw_A_v22_figures.m,Reference comparison
+5,09_Sekiller/learning_editorial_v1/A25_final_accuracy_REPORT_v1,png;pdf;svg,07_Sonuclar/learning_run_v1/summary_v1/summary_by_seed.csv,03_MATLAB_Kodlari/a25_plot_editorial_titles_v1.m,Same saved learning summaries; clean manuscript title
+6,09_Sekiller/learning_editorial_v1/A25_acquisition_retention_REPORT_v1,png;pdf;svg,07_Sonuclar/learning_run_v1/summary_v1/stage_metrics.csv,03_MATLAB_Kodlari/a25_plot_editorial_titles_v1.m,Same saved learning summaries; clean manuscript title
+7,09_Sekiller/learning_editorial_v1/A25_final_accuracy_FIT_v1,png;pdf;svg,07_Sonuclar/learning_run_v1/summary_v1/summary_by_seed.csv,03_MATLAB_Kodlari/a25_plot_editorial_titles_v1.m,Same saved learning summaries; clean manuscript title
+8,09_Sekiller/learning_editorial_v1/A25_acquisition_retention_FIT_v1,png;pdf;svg,07_Sonuclar/learning_run_v1/summary_v1/stage_metrics.csv,03_MATLAB_Kodlari/a25_plot_editorial_titles_v1.m,Same saved learning summaries; clean manuscript title

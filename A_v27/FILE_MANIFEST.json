@@ -1,0 +1,854 @@
+{
+  "schema": "A27_PUBLIC_FILE_MANIFEST_V1",
+  "version": "v27.0",
+  "scope": "Only this package directory; repository root historical files are outside this inventory.",
+  "file_count_excluding_manifest": 141,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 60,
+      "sha256": "128fcbb1e7422aa06a0c62bfcbe764d001f9c398e3f818a9fa689af8e04d55f1",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "01_Kaynaklar/preserved_reference_DATA_DICTIONARY.md",
+      "bytes": 2485,
+      "sha256": "50a1de7ad7acf07d1104889a037034a65fda275288ac8348f1eb4fb6bfb305ca",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "01_Kaynaklar/preserved_reference_DATA_SOURCES.json",
+      "bytes": 4041,
+      "sha256": "002a6987472c955cc31c98daa7b60693dfa185a420c0048d3670aa8fb834ce0e",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "01_Kaynaklar/preserved_reference_THIRD_PARTY_DATA_NOTICE.txt",
+      "bytes": 1249,
+      "sha256": "ec10e35de2a044162fb1e89a54e59d6c9b68d747f8fd1af02195d1809243194c",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "02_Veriler/A_source_average_records_v1.csv",
+      "bytes": 16440,
+      "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "02_Veriler/baseline_A_source_records_v23_0.csv",
+      "bytes": 16440,
+      "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/LICENSE_CODE.txt",
+      "bytes": 1091,
+      "sha256": "8dcc7e78f8e4d0ca99f6f9c581484c1dd5d1cf1f71e43238b3e78b8d697dc3c7",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/license_scope_v1.json",
+      "bytes": 780,
+      "sha256": "cffa352c50806c8dd009bc6cb00a801e9b8d64d18e02a8b4677bd4e70cc11a06",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_adam.m",
+      "bytes": 1430,
+      "sha256": "d9b5ab45e35639acb6e3965f065727fb41e64f2adb0083e45e6a93d8a6fe6b90",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_init.m",
+      "bytes": 1053,
+      "sha256": "8d35ec14fa5c6026e7e0dab33a87f053b23bb2d1359a0f096d60ba0418540bf5",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_logits.m",
+      "bytes": 973,
+      "sha256": "eaf99857f54949c4d4752f3cf8a09a5bf3722873a4faaae475b8b945793fd31c",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_lossgrad.m",
+      "bytes": 1568,
+      "sha256": "6b7a4e40fc6a39ca97c887f0edcf7b684d5e994959ad45ade11ac608c463701b",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_pack.m",
+      "bytes": 413,
+      "sha256": "826bb4945a7ef7f5e278a5dcbe78335368e6729f78b25f9f929d337dadf6908c",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_pair_softmax.m",
+      "bytes": 541,
+      "sha256": "7548c08a3588ab507fa819924f92e95ff6ee433b8b491c8587bacf4df61d57ab",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_param_names.m",
+      "bytes": 233,
+      "sha256": "3fdcb854a295e281d25d15969e18bba3b9576dce3df84caac1a1ff30a1301237",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_predict.m",
+      "bytes": 186,
+      "sha256": "542c36da2ff6fe469ff7ab27121a32d7254c0b6f858e9991e6d0ebe71920b27d",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/r04nn_unpack.m",
+      "bytes": 361,
+      "sha256": "27aebdd5ea36e0a56a617e3a6d82355b75e15052e05a5d63604b09845de2024d",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/run_r04nn_math_checks.m",
+      "bytes": 5729,
+      "sha256": "92dfa378b41c50cb6af8b50ae75b39b3bc741e1f1ed64e381a632717d4449be4",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/prospective_protocol_v1.json",
+      "bytes": 13080,
+      "sha256": "8b4c1b579889a7cedb6b652d47f1ae95ffe546793ae4e77eb699231d31ec46ea",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/review/launch_acceptance_v2.json",
+      "bytes": 20836,
+      "sha256": "5bfae9a5d1948b92494da6a77e91bba327829f03ad1a103e62117b6ec1df9856",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/run_r04_source_experiment_v2.m",
+      "bytes": 12573,
+      "sha256": "284624f7194920bbef3d1de2f14fd2ddb932ab34942a0d5ee6b3205801fb760a",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/decision_rows_v1.csv",
+      "bytes": 3616304,
+      "sha256": "fed3810476d8a09b17e3719bc42d15f918bb5ac69852edcd9d1700eba07d0be2",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/execution_receipt_v1.json",
+      "bytes": 591,
+      "sha256": "935623bcfc93a3cd8705cf90fdc281ef7ccfd957ea033fc0fc09467721e02607",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/models_and_optimizer_states_v1.mat",
+      "bytes": 2228096,
+      "sha256": "5b519d60112541512b17770cb49f17aa6accd297d24fd1c8be111fdd6af6f963",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/normalizer_v1.json",
+      "bytes": 3249,
+      "sha256": "bb7ae9482f8de3d30941db11898d654d0fbf233caf0d48db4ae63b86f706a1ee",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/task_stage_summaries_v1.json",
+      "bytes": 482164,
+      "sha256": "b1f5c521df3f10ac48a37e44950c0d1f2c89b5818c8c57ae940964a797a1fd2c",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/training_ledger_v1.json",
+      "bytes": 50706,
+      "sha256": "8b24a489fd82c7182580fb7f937af1b044d2e1a8a36ce0b993318e3ee8bb4a8d",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/staged_input_manifest_v1.json",
+      "bytes": 1399,
+      "sha256": "06496d8264332caa2433c1a71a4eff524a553a5acbeb5a8f35b27e3b73bb90f6",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/staged_source_records_v1.csv",
+      "bytes": 16440,
+      "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_Hesaplama_Eki/recorded_package_v2/THIRD_PARTY_DATA_NOTICE.txt",
+      "bytes": 1249,
+      "sha256": "ec10e35de2a044162fb1e89a54e59d6c9b68d747f8fd1af02195d1809243194c",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_build_inference_slx_v1.m",
+      "bytes": 3119,
+      "sha256": "d4fc353b7823c906c1bb3f0ed1bba1d3f697ee6bf57247d63d86fd6628b19c63",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_ce_lossgrad.m",
+      "bytes": 1778,
+      "sha256": "cad9e432ff72aabb91120d580d847317e615ebdab255fd6003d981aa25eb06b8",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_ce_predict.m",
+      "bytes": 263,
+      "sha256": "288d05be58e7c823bca5ef95ccf3972935a78a330c603b075b43a7bbb1f1fa21",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_code_lossgrad.m",
+      "bytes": 1651,
+      "sha256": "f53bdbddc670923555db83f5f14c3adfde3ea234664d25de169e36684f95aeae",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_codebook.m",
+      "bytes": 740,
+      "sha256": "546ab8139d96a88dc8f6da809803a544920316d13f1d9468c4791c8e8b9df658",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_decode.m",
+      "bytes": 1783,
+      "sha256": "e49860a02a5d7affb879275ebd88700d997fb80a5679b13355089f67a2a270bc",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_inference_numeric_v1.m",
+      "bytes": 2087,
+      "sha256": "bee3419decf0e9e111f7909a1a301bfebe1642e13cccb31748e7706c189650b1",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_plot_summaries_v4.m",
+      "bytes": 10804,
+      "sha256": "f25c9ac85dba9e10375fda1ae0da52633cd1f1a1c4518590aeae358b3d58568d",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_run_inference_parity_v1.m",
+      "bytes": 16914,
+      "sha256": "551695c9717919b99f9bc91d533749844e24673107f9c51bb93e3e145f47ed82",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_seen_softmax.m",
+      "bytes": 796,
+      "sha256": "b056a9bba0908c6c674400e80b80b1c007546cb80fe0e752907ac11202831b4a",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a24_sigmoid.m",
+      "bytes": 299,
+      "sha256": "7ce028ab5b9afc808148d1015e8265fdd1c77fc4af2c6eeb731e6a3bc954abb4",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/a25_plot_editorial_titles_v1.m",
+      "bytes": 10829,
+      "sha256": "19836f6b9aa903aa2582b6c80c87d13e60c028d14cf11d156488c10e588b8dda",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/baseline_build_inference_slx_v5.m",
+      "bytes": 3254,
+      "sha256": "bc0bbf7d8b1bf9a156f3489eaa561e91fcaa0eb49abe9e3bd94e0cd3b30325f2",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/baseline_inference_numeric_v1.m",
+      "bytes": 1279,
+      "sha256": "f063a0547cd21eccf286d444e3a1c29600c26a4713ec4a9e8734d7805bd5f5ca",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/baseline_run_inference_parity_v5.m",
+      "bytes": 11746,
+      "sha256": "7e20a254896ae32334913b43a3ee83cb8af6eb511957366f7eeb29ef13a4d1e0",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/LICENSE_CODE.txt",
+      "bytes": 1091,
+      "sha256": "8dcc7e78f8e4d0ca99f6f9c581484c1dd5d1cf1f71e43238b3e78b8d697dc3c7",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/run_a24_ce_math_checks.m",
+      "bytes": 4632,
+      "sha256": "edaf0df38b4c79669ad18e304cc3b67d84b8a18a1cd98d74580262b8b3fd340c",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/run_a24_learning_v1.m",
+      "bytes": 9066,
+      "sha256": "cfa84d6ccea6cb5de6ea4daee62f2c3f2497cc55e6dee9a1c1fdf076c9e9b879",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/run_a24_new_math_checks.m",
+      "bytes": 5716,
+      "sha256": "a35650606b944e12bffd4129b9804a4c26cbfc00fbbf5c1ef73d7059208297c0",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/summarize_a24_results_v1.py",
+      "bytes": 24894,
+      "sha256": "557739a5095d20e9f7535b55cc2dcf8a54961dfd68a0faf5c4086a65fe339324",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_adam.m",
+      "bytes": 1430,
+      "sha256": "d9b5ab45e35639acb6e3965f065727fb41e64f2adb0083e45e6a93d8a6fe6b90",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_init.m",
+      "bytes": 1053,
+      "sha256": "8d35ec14fa5c6026e7e0dab33a87f053b23bb2d1359a0f096d60ba0418540bf5",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_logits.m",
+      "bytes": 973,
+      "sha256": "eaf99857f54949c4d4752f3cf8a09a5bf3722873a4faaae475b8b945793fd31c",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_lossgrad.m",
+      "bytes": 1568,
+      "sha256": "6b7a4e40fc6a39ca97c887f0edcf7b684d5e994959ad45ade11ac608c463701b",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_pack.m",
+      "bytes": 413,
+      "sha256": "826bb4945a7ef7f5e278a5dcbe78335368e6729f78b25f9f929d337dadf6908c",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_pair_softmax.m",
+      "bytes": 541,
+      "sha256": "7548c08a3588ab507fa819924f92e95ff6ee433b8b491c8587bacf4df61d57ab",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_param_names.m",
+      "bytes": 233,
+      "sha256": "3fdcb854a295e281d25d15969e18bba3b9576dce3df84caac1a1ff30a1301237",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_predict.m",
+      "bytes": 186,
+      "sha256": "542c36da2ff6fe469ff7ab27121a32d7254c0b6f858e9991e6d0ebe71920b27d",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "03_MATLAB_Kodlari/utility/r04nn_unpack.m",
+      "bytes": 361,
+      "sha256": "27aebdd5ea36e0a56a617e3a6d82355b75e15052e05a5d63604b09845de2024d",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "04_Simulink_Modelleri/a24_A_inference_v1.slx",
+      "bytes": 74643,
+      "sha256": "589fb9e89f581a2ee292154915a3a3d43c9fa99b7edd4d709dddac4d823b1fc5",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "04_Simulink_Modelleri/baseline_A_inference_v5.slx",
+      "bytes": 70709,
+      "sha256": "6291f64a36381afbd32b337703dd68996dff3eef6f6a6a5ceb2b899a8f43825c",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "05_Ogrenilmis_Modeller/a24_final_stage_inference_bank_v1.mat",
+      "bytes": 577240,
+      "sha256": "763d2493308f00859455ab8168ba5c4dc0782cb17326cfc7fb72cda49ca361e7",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "05_Ogrenilmis_Modeller/baseline_A_final_stage_models_v1.mat",
+      "bytes": 138184,
+      "sha256": "059683137000408098b61b8bb1ef1d8fa21eae0a8b133c17126b61600c3d16b5",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "06_Protokoller/A24_new_inference_parity_protocol_v1.json",
+      "bytes": 6359,
+      "sha256": "e61293dfec193978ea4260a603fb9b9d126ba53936ac649a7642784138fbb3b7",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "06_Protokoller/A24_prospective_protocol_v3.json",
+      "bytes": 9469,
+      "sha256": "945ed597e74dd97ccc7e26e5028842b93f77044774d991bdf84659d5f623de09",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "06_Protokoller/baseline_simulink_parity_protocol_v1.json",
+      "bytes": 5386,
+      "sha256": "f1261b3899b6bf8eb8372cc643ec0b1385c3c4708a28cf1b1d1bfc6d44c1b6bc",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/a24_simulink_run_v1/a24_first_raw_trace_v1.mat",
+      "bytes": 2150,
+      "sha256": "a62889c0fd18ca2e6735215a64021196f0269edb193f70df3ee39621b35115bd",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/a24_simulink_run_v1/a24_simulink_decisions_v1.csv",
+      "bytes": 540675,
+      "sha256": "64ea8cb90f8411b30d22c290b8bbf8af08774fff141a8a7d7be24576ac6d15b0",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/a24_simulink_run_v1/a24_simulink_parity_result_v1.json",
+      "bytes": 70438,
+      "sha256": "0d09ebed5bb9bc00df6364ceae2eead908123f8b153131b50c6e2708a8fa40d7",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/baseline_simulink_run_v5/baseline_simulink_decisions_v1.csv",
+      "bytes": 171258,
+      "sha256": "a2b67051b16e6c3e9717d17089d89bebbc8a1e58b547ead0305bcb3f4c2e7f11",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/baseline_simulink_run_v5/baseline_simulink_parity_result_v1.json",
+      "bytes": 19044,
+      "sha256": "8b727b61618d11c8347810976f6fc6893e84b93a903ce3b70625d861e61a71dc",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/baseline_simulink_run_v5/last_raw_trace_shape_v1.json",
+      "bytes": 84,
+      "sha256": "48a550fb309cc5d7406f564ee8df301bca1f79ce3078c7ea8a6933b5223c12c6",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/checkpoints_v1.json",
+      "bytes": 3345643,
+      "sha256": "09e340b481385ad981cc7b01d83fc7d5249652a69f27e8e52f7c80bb9b84798d",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/decisions_v1.csv",
+      "bytes": 5974971,
+      "sha256": "700c23757e37f4b94406268ce1231a9d9ed8f916b0c7203d0b8deb4b326f52ff",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/execution_receipt_v1.json",
+      "bytes": 429,
+      "sha256": "1206c13f8d39d96841d62449e6df4bfd59c2e7ce3aaee1eda349fea6e23545e0",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/models_and_optimizer_states_v1.mat",
+      "bytes": 8032235,
+      "sha256": "494bc0ab136486a7d6e320d353ca5c8cebf1adc623e447ab858720655f93b30d",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/normalizer_v1.json",
+      "bytes": 1897,
+      "sha256": "d1d4e87a9001a11abc8d6cf447b37e8653235a5298abc8485f326c3378286dd9",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/summary_v1/stage_metrics.csv",
+      "bytes": 159526,
+      "sha256": "7ae2d212cc70f11e2447dd5424832ee56f25386b2fd70ed590a3f88551c926bd",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/summary_v1/summary_by_seed.csv",
+      "bytes": 26348,
+      "sha256": "302af8f949a564642a37ccd7b543c9487df73abbf655b1a74c85f773c559792e",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/summary_v1/summary_ranges.csv",
+      "bytes": 88789,
+      "sha256": "3615163b0a9806c4574eadb320eb5e6e52c519b51924fcb76158629992139597",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "07_Sonuclar/learning_run_v1/training_ledger_v1.csv",
+      "bytes": 32357,
+      "sha256": "f31f79fc4229a60b1cd56b46ccf72baa4c0b8358e4ab5b233fe0a8e510e76b22",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "08_Inceleme/A24_launch_acceptance_v1.json",
+      "bytes": 4567,
+      "sha256": "cc07094bedc099f5b923d6e9622e25651465cf2cd772d9877f72414946d8a806",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_acquisition_retention_FIT_v1.pdf",
+      "bytes": 33294,
+      "sha256": "27c0df75cf145b6fb19980bb9997a2a407395f990fe34ad396dc21d98a279230",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_acquisition_retention_FIT_v1.png",
+      "bytes": 855813,
+      "sha256": "ef9a90f5c5e6767b3cb19133766ecc018e42f9f1f137a6561ab0af4c51a7273b",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_acquisition_retention_FIT_v1.svg",
+      "bytes": 163035,
+      "sha256": "ab4bd36ba1d871f1fefecd9727740746a66a1593d9c335096c6f90733a6ce682",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_acquisition_retention_REPORT_v1.pdf",
+      "bytes": 32986,
+      "sha256": "496a8b3b628fb432ba93caf586b8a71da0e4e7f1c4c4dd9c7038d4f67eb7da60",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_acquisition_retention_REPORT_v1.png",
+      "bytes": 832677,
+      "sha256": "f8c4ccbd6e4de180ea6cd79f3554cb1d217803cfd66b09446176726f11af11b1",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_acquisition_retention_REPORT_v1.svg",
+      "bytes": 163031,
+      "sha256": "4fe9466542a0ed24e5b28eb0e8083a6618afeb59cc8848d4ad44f97c9039e411",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_final_accuracy_FIT_v1.pdf",
+      "bytes": 27568,
+      "sha256": "5e32c5cba691f0df68d63c09cb51ae7ce0f70b2124bbd20cc45ae43621ce86a7",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_final_accuracy_FIT_v1.png",
+      "bytes": 533476,
+      "sha256": "97dffa33541a8d001935ee9fc64663549276e53653dd560607a39a50830929f8",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_final_accuracy_FIT_v1.svg",
+      "bytes": 65178,
+      "sha256": "99e719bf5094a0053d50a6877ad87a817c0b66f4dfa5f574e233fc844cee22aa",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_final_accuracy_REPORT_v1.pdf",
+      "bytes": 27840,
+      "sha256": "0668ac87681e1ffbe0444d139fae0a2908bf7d4c56f55afc9080285da2d80dd0",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_final_accuracy_REPORT_v1.png",
+      "bytes": 540449,
+      "sha256": "6d5f593bd9a51414c2759e51329dce37262c560645e71560b2797023064002a8",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/A25_final_accuracy_REPORT_v1.svg",
+      "bytes": 65190,
+      "sha256": "7c725094c3c378d37ea387d7b3e5a72b7f000e1c946c73d6e6316120d7b248cc",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_editorial_v1/README.txt",
+      "bytes": 329,
+      "sha256": "b778920e513640541b38b3f00b62b5cc4caa5605eaae96b0942fd8cf977bacad",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_acquisition_retention_FIT_v5.pdf",
+      "bytes": 33489,
+      "sha256": "bb1da39597fec5d837fa5b608572498a1f4d1220f35ab7a5bdd576311fffcbeb",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_acquisition_retention_FIT_v5.png",
+      "bytes": 858889,
+      "sha256": "994e1f0a54cd71c8006ef8d4262feef0d2559db6c00cff9371fd9f45c3a37c2b",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_acquisition_retention_FIT_v5.svg",
+      "bytes": 163036,
+      "sha256": "029038f929cc20d272810eab542a88a3c11aa71f81945cd3760dc11f545e1a3d",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_acquisition_retention_REPORT_v5.pdf",
+      "bytes": 33180,
+      "sha256": "8569d91ff8a69af72c4ec1b456ad7b1ec1d2794775add0117ac31aa2b646d93a",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_acquisition_retention_REPORT_v5.png",
+      "bytes": 834779,
+      "sha256": "eaa2f150157b74df073cdc24bd3bad32b50bfb0abb6bb26df51af57e6059becc",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_acquisition_retention_REPORT_v5.svg",
+      "bytes": 163032,
+      "sha256": "3d6c6af2e67ad1e0d5f9a16dd9e7dc65e993e52de9354e1539ab8e72a1de6522",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_final_accuracy_FIT_v5.pdf",
+      "bytes": 27830,
+      "sha256": "3b803fa72d4be4ae863a25dfd20a35d7a2151af040556e8aef27f178583b1058",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_final_accuracy_FIT_v5.png",
+      "bytes": 538424,
+      "sha256": "c62ec6a888be540520fa1ebce1132c70bd7a65dd6883864d6526ea903641a056",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_final_accuracy_FIT_v5.svg",
+      "bytes": 65183,
+      "sha256": "fdd36b22fc5ee6c8888d282718fcbe099099ba7d30373b1f19880a0e8401230f",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_final_accuracy_REPORT_v5.pdf",
+      "bytes": 28062,
+      "sha256": "016ee24ed6480104060c7b9c594cff49623c5cc3d6be8cec572183e6b132d507",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_final_accuracy_REPORT_v5.png",
+      "bytes": 546341,
+      "sha256": "850a8fa0406a22b40682f875482ea376261e9e8447d4da4948aa5b28ba49f6cd",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "09_Sekiller/learning_v5/A24_final_accuracy_REPORT_v5.svg",
+      "bytes": 65195,
+      "sha256": "a1c9754aaa0f56a9cb64a793dced2708b94f757da8cb06dc0bb1ed52838701f1",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1296,
+      "sha256": "fd90caddb3434c2b060e6d738e67faaf164ebf56080c2b7f375afd4d27c4f756",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 1895,
+      "sha256": "9368d725f77905d2baa3ba16de2a4da6fe643f008e980a20057f1cb50b64e0cb",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "DATA_SOURCES.json",
+      "bytes": 1888,
+      "sha256": "9f2c2c559f5a24e5d3ad259b7b30143735eb1619bdc08aac71c18d490dcec1c0",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "FIGURE_MAP.csv",
+      "bytes": 1579,
+      "sha256": "549ef34060cf1d67c90afacfbbaeb48babeeb6682cab643dccf7b89e8597ce2f",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_1_experiment_workflow.pdf",
+      "bytes": 14129,
+      "sha256": "e8a7f2d0a578bfb92f164af1c383649b49547643b3877ca6932d960ae3f63cc2",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_1_experiment_workflow.png",
+      "bytes": 433484,
+      "sha256": "50ce8d154a67ea319b7a1013d53a46143da1f63c817603d99086c7b680a94141",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_1_experiment_workflow.svg",
+      "bytes": 25112,
+      "sha256": "213b0843be84aab5791a4fe09fc5286804a6cd44bb32ed35b780d44dee968561",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_1_plot_data.csv",
+      "bytes": 136,
+      "sha256": "6fd22d59a7cc4aa0dc69473a91ceb3ed06fc1c5012a0b8c1db88105204847ecc",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_2_mechanical_records.pdf",
+      "bytes": 26163,
+      "sha256": "a815ca42167be0b2c8c9275eb85a3eac99f02e08694e3c0c1e1d1c41067ecb12",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_2_mechanical_records.png",
+      "bytes": 247842,
+      "sha256": "7293496d2a774a1eb232f5d111d9e273389d7b277e20fac5115f3f2d37150dd5",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_2_mechanical_records.svg",
+      "bytes": 91726,
+      "sha256": "f50ae3cf82aab0ec0406c7f1e0926e9a96cfcb40b2e18a8746c8fe1216114456",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_2_plot_data.csv",
+      "bytes": 16440,
+      "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_3_final_reporting_decisions.pdf",
+      "bytes": 24967,
+      "sha256": "ecf962526828f9b05249a182eafb241a5b0b9364fe1babd7374916ca70783661",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_3_final_reporting_decisions.png",
+      "bytes": 262134,
+      "sha256": "aca0694bcd61781723b3e8f88b8034d98b5b4c7b9c66624827726e74c5442f49",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_3_final_reporting_decisions.svg",
+      "bytes": 45880,
+      "sha256": "5631678e36f9721556263512cf6d33c8b48af667f248b714284acccb7ead8cb3",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_3_plot_data.csv",
+      "bytes": 2859,
+      "sha256": "f28613d6bfb54aadfd2dc000e1ce1bd2e9cd7e3c07998bebd7a01d9dc1d1fc72",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_4_paired_old_task_gain.pdf",
+      "bytes": 30319,
+      "sha256": "c6a9e90ea51c5da7cebf2051325c872608f3bb2a19195fa71f1828cd78ce86b5",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_4_paired_old_task_gain.png",
+      "bytes": 191989,
+      "sha256": "f9f5e92b864619123f9a377e473a7c680f3c03873dd1e439d9c1cc4d41c01170",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_4_paired_old_task_gain.svg",
+      "bytes": 52153,
+      "sha256": "b68c5802bf340d9a8a82920d26ca997f37d8692ed7c4bbe46400404eef47f217",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/Figure_4_plot_data.csv",
+      "bytes": 1659,
+      "sha256": "71edb12028026aaa0e01e123140155831adb80677fcd58ac5449a252b06e8b27",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/finalize_A_v22_vector_outputs.py",
+      "bytes": 3834,
+      "sha256": "46337ea6f6a7c63d420b9d65287b585ab01b38393b894e98a3a7b39bd1283e7c",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "figures/generate_A_v22_figures.py",
+      "bytes": 17209,
+      "sha256": "5b4eef3dc403b8e772036133c4b8393786f9ee461b33e6ea7864a2bdc5aa3231",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "figures/README_figures.txt",
+      "bytes": 2561,
+      "sha256": "a1ff73632716e38a40c4f1084f9a056f068e6fca2dcaa3e498fabd94f265ae66",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "figures/redraw_A_v22_figures.m",
+      "bytes": 7959,
+      "sha256": "8a24aecd3c5cbda8f88bdfff584e8849ea151c1666d6ebcaa6b8b9453d35e43b",
+      "license": "MIT; retain third-party notices"
+    },
+    {
+      "path": "LICENSE_CODE.txt",
+      "bytes": 1091,
+      "sha256": "8dcc7e78f8e4d0ca99f6f9c581484c1dd5d1cf1f71e43238b3e78b8d697dc3c7",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "LICENSE_DATA_FIGURES_DOCS.txt",
+      "bytes": 2379,
+      "sha256": "e1d0888bdc000491b2a13c9ec81c3cb8cee400f58a4ddf3e7938c8bf565a6e85",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "LICENSE_SCOPE.json",
+      "bytes": 2050,
+      "sha256": "e05e903acb394c20ab0896c0796a3ad3be5336b0c2d6e2081977c8c04c7b02aa",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "MANUSCRIPT_MAPPING.json",
+      "bytes": 965,
+      "sha256": "5f35240f205f8728433ffad80cc1b9d32a270c6cf7ddc5b1ae2bba0403816805",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "METHOD_PROVENANCE.md",
+      "bytes": 1883,
+      "sha256": "c92abf97c7c89a51c257c9fa3e4011414abe75d1f7e25bb29ededb058de9026b",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6155,
+      "sha256": "cb1344abb6aacb73dccc90d8018cb9ee1aa636ddd4641979be1ef23ae8311b2c",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "RELEASE_NOTES_v27.0.md",
+      "bytes": 2038,
+      "sha256": "760784870e422a949f55674b5e24c28824ad36242c393a34c0ae3218afc6aa8b",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 5791,
+      "sha256": "6a191de16309dfd68dbaf8562724d06b6ec0d887de816e49c7b6f9ee0be64a24",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "THIRD_PARTY_CODE_NOTICE.txt",
+      "bytes": 1688,
+      "sha256": "7fa5ce028e942aa8d4a4c5e60e5ddd91dbc58eb8a7897236be7ae34fe412c379",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    },
+    {
+      "path": "ZENODO_METADATA_DRAFT.json",
+      "bytes": 2122,
+      "sha256": "a637dce3dfac8fc94a7287d9523d92063e2b9e5fdb0f1337d2c75c97af995077",
+      "license": "See LICENSE_SCOPE.json and source-specific notices"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schema": "A_BASELINE_SIMULINK_PARITY_PROTOCOL_V1",
+  "status": "AUTHORING_ONLY_AWAITING_INDEPENDENT_REVIEW",
+  "created_at_utc": "2026-10-11T02:31:24.816758+00:00",
+  "version": "A_v24.0_2026_10_11",
+  "operation": "Frozen-model inference implementation equivalence, not training or physical simulation",
+  "expected_checkpoints": 30,
+  "expected_views_per_checkpoint": 24,
+  "expected_decision_views": 720,
+  "stage": 3,
+  "partition": "REPORTING_DEVELOPMENT",
+  "architectures": [
+    "linear",
+    "mlp_tanh"
+  ],
+  "arms": [
+    "sequential_no_replay",
+    "sequential_replay",
+    "joint_seen_reference"
+  ],
+  "seeds": [
+    101,
+    211,
+    307,
+    401,
+    503
+  ],
+  "unique_source_averages": 16,
+  "unique_source_condition_groups": 4,
+  "known_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "learned_inputs": [
+    "E_MPa",
+    "Hardness_ShoreD"
+  ],
+  "control_inputs": [
+    "candidate_a",
+    "candidate_b",
+    "frozen architecture/weight checkpoint"
+  ],
+  "audit_only": [
+    "source_row_id",
+    "condition_group",
+    "true label",
+    "seed",
+    "stage",
+    "task",
+    "partition"
+  ],
+  "physical_time": false,
+  "sampling": "24 ticks0..23; time series with interpolation off; each tick one published-average query view",
+  "frozen_normalizer": {
+    "fit_population": "T1 TRAIN36 only; no refit",
+    "mean": [
+      2625.5656851851854,
+      77.22222222222223
+    ],
+    "sample_sd": [
+      585.0884063210186,
+      4.032731163234247
+    ]
+  },
+  "decoder": {
+    "margin_threshold": 0.15,
+    "nonselection": "margin<0.15 or exact equal pair scores",
+    "forced_tie": "smallest candidate index; accepted pairs ascending"
+  },
+  "numeric_tolerance": 1e-10,
+  "tolerance_reason": "Double matrix arithmetic, tanh and exp may differ at last floating-point bits between legacy MATLAB and generated MATLAB Function simulation. Absolute+relative1e-10 applies only to scores/logits/normalization/margin; categorical decisions and all counts must be exact. Threshold is never retuned to pass.",
+  "outputs14": [
+    "Xnorm1",
+    "Xnorm2",
+    "logit1",
+    "logit2",
+    "logit3",
+    "logit4",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "margin",
+    "forced_argmax",
+    "selected_label",
+    "status"
+  ],
+  "truth_is_separate": "True labels enter only post-simulation outcomes and metric reporting, never the SLX predictor.",
+  "reference": "Legacy r04nn_predict/r04nn_logits/r04nn_pair_softmax + original final-stage saved decision CSV. Numeric core is embedded into MATLAB Function block by builder; real generated SLX and actual numeric trace required later.",
+  "source_prior_pins": {
+    "model_MAT": {
+      "relative_to_original_package": "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/models_and_optimizer_states_v1.mat",
+      "bytes": 2228096,
+      "sha256": "5b519d60112541512b17770cb49f17aa6accd297d24fd1c8be111fdd6af6f963",
+      "pin_origin": "Accepted v23 public manifest; no MAT read/hash in authoring."
+    },
+    "saved_decision_CSV": {
+      "relative_to_original_package": "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/decision_rows_v1.csv",
+      "bytes": 3616304,
+      "sha256": "fed3810476d8a09b17e3719bc42d15f918bb5ac69852edcd9d1700eba07d0be2",
+      "pin_origin": "Accepted v23 public manifest; only header+first row read during authoring."
+    },
+    "new_source_copy": {
+      "relative_to_version": "02_Veriler/baseline_A_source_records_v23_0.csv",
+      "bytes": 16440,
+      "sha256": "6d3902c59e696a53cd36e7bb9a42df1bac1fd9216737e34bfc90bb53b07c70a4"
+    }
+  },
+  "future_IO_scope": "One semantic MAT load; one source readtable; one archived-decision readtable; code/protocol small text;30 simulator calls in one newly owned MATLAB process. No model-weight byte rehash inside driver; prior pins are reported as prior evidence, not fresh checks.",
+  "actual_runtime_budget": "Root-owned scoped MATLAB launch, proposed300s total wall budget. No new watchdog architecture, global process closure or automatic repeat. On concrete fault retain receipt and repair narrowly.",
+  "expected_artifacts": [
+    "04_Simulink_Modelleri/baseline_A_inference_v1.slx",
+    "05_Ogrenilmis_Modeller/baseline_A_final_stage_models_v1.mat",
+    "07_Sonuclar/<new_run>/baseline_simulink_parity_result_v1.json",
+    "07_Sonuclar/<new_run>/baseline_simulink_decisions_v1.csv"
+  ],
+  "delivered_SLX_example": "First declared checkpoint linear/sequential_no_replay/seed101/stage3; not selected for performance. Full30-checkpoint result separate.",
+  "rights": "Original code MIT; source-derived measurements and authorized original scientific outcomes/figures/models CC BY4.0. Preserve source dataset10.17632/zd6td6svd6.2 and source article10.3390/mi17070859 attribution.",
+  "primary_API_references": [
+    "https://www.mathworks.com/help/simulink/ug/configure-matlab-function-blocks-programmatically.html",
+    "https://www.mathworks.com/help/stateflow/api/stateflow.emchart.html",
+    "https://www.mathworks.com/help/simulink/slref/fromworkspace.html",
+    "https://www.mathworks.com/help/simulink/slref/toworkspace.html"
+  ],
+  "new_training": 0,
+  "new_physical_validation": 0,
+  "new_online_learning": 0,
+  "B_payloads_used": false,
+  "baseline_MAT_semantic_read_during_authoring": false,
+  "actual_SLX_created_during_authoring": false,
+  "run_admitted": false
+}

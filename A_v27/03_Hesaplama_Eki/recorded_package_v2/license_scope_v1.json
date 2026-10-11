@@ -1,0 +1,22 @@
+{
+  "original_code_license": "MIT",
+  "copyright_notice": "Copyright (c) 2026 Salih Çolakoğlu and Mustafa Onat",
+  "MIT_files": [
+    "run_r04_source_experiment_v2.m",
+    "matlab_utility/r04nn_adam.m",
+    "matlab_utility/r04nn_init.m",
+    "matlab_utility/r04nn_logits.m",
+    "matlab_utility/r04nn_lossgrad.m",
+    "matlab_utility/r04nn_pack.m",
+    "matlab_utility/r04nn_pair_softmax.m",
+    "matlab_utility/r04nn_param_names.m",
+    "matlab_utility/r04nn_predict.m",
+    "matlab_utility/r04nn_unpack.m",
+    "matlab_utility/run_r04nn_math_checks.m"
+  ],
+  "source_data_license": "CC BY 4.0",
+  "source_data_doi": "10.17632/zd6td6svd6.2",
+  "not_a_blanket_ZIP_MIT_license": true,
+  "runtime_or_toolboxes_redistributed": false,
+  "public_repository_deposit_claimed": false
+}

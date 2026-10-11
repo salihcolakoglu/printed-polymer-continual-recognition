@@ -1,0 +1,44 @@
+v27.0 computational materials — scientific data, figures, documents, results and models
+Prepared: 11 October 2026
+
+Original scientific material: Copyright (c) 2026 Salih Çolakoğlu and Mustafa Onat.
+
+Within the authors' rights, the source-derived data and original scientific
+figures, explanatory documents, protocols, numerical results, learned weights,
+model banks and authored Simulink model artifacts in this package are made
+available under the Creative Commons Attribution 4.0 International licence
+(CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+The binding legal terms are at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Under those terms, users may share and adapt the licensed material, including
+commercially. Appropriate credit must be given, a licence link supplied, and
+changes indicated. No endorsement by the original creators may be implied.
+This paragraph is a short explanation, not a replacement for the legal code.
+
+The original measurement source retains its own authorship and licence:
+Mendeley Data, version 2, DOI 10.17632/zd6td6svd6.2
+https://doi.org/10.17632/zd6td6svd6.2
+Accompanying article: DOI 10.3390/mi17070859
+https://doi.org/10.3390/mi17070859
+Preserve the source creators, citations, version, licence notices and recorded
+transformations supplied in 01_Kaynaklar and the data provenance records.
+This package does not claim exclusive ownership of the source measurements.
+
+Original software is licensed separately under MIT; see
+03_MATLAB_Kodlari/LICENSE_CODE.txt. The request for an academic citation of
+software is not an added compulsory DOI-citation clause in the MIT licence.
+Original code remains MIT when it is called by or embedded in a model artifact.
+
+Externally authored material retains its own notices and terms. Material beyond
+the authors' rights is not relicensed by this notice. No licence to MATLAB,
+Simulink or other MathWorks proprietary software is granted. No trademark,
+patent, privacy or endorsement rights are implied beyond the relevant licence.
+
+The complete file-category allocation is in LICENSE_SCOPE.json. These notices
+describe the v27.0 computational package supporting manuscript A27.
+Existing DOI 10.5281/zenodo.23289833 identifies only the earlier release v23.0.
+Cite the exact v27.0 GitHub release and its verified version-specific Zenodo DOI
+when the linked archive is available.

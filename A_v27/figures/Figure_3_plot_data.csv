@@ -1,0 +1,32 @@
+method,architecture,arm,seed,stage,partition,decision_views,selected_correct,selected_wrong,nonselection,failure,forced_argmax_correct
+Linear: no replay,linear,sequential_no_replay,101,3,REPORTING_DEVELOPMENT,24,19,2,3,0,21
+Linear: no replay,linear,sequential_no_replay,211,3,REPORTING_DEVELOPMENT,24,19,1,4,0,21
+Linear: no replay,linear,sequential_no_replay,307,3,REPORTING_DEVELOPMENT,24,19,2,3,0,21
+Linear: no replay,linear,sequential_no_replay,401,3,REPORTING_DEVELOPMENT,24,19,1,4,0,21
+Linear: no replay,linear,sequential_no_replay,503,3,REPORTING_DEVELOPMENT,24,19,1,4,0,21
+Linear: replay,linear,sequential_replay,101,3,REPORTING_DEVELOPMENT,24,20,1,3,0,22
+Linear: replay,linear,sequential_replay,211,3,REPORTING_DEVELOPMENT,24,21,0,3,0,23
+Linear: replay,linear,sequential_replay,307,3,REPORTING_DEVELOPMENT,24,21,0,3,0,23
+Linear: replay,linear,sequential_replay,401,3,REPORTING_DEVELOPMENT,24,21,0,3,0,23
+Linear: replay,linear,sequential_replay,503,3,REPORTING_DEVELOPMENT,24,21,0,3,0,23
+Linear: joint seen,linear,joint_seen_reference,101,3,REPORTING_DEVELOPMENT,24,19,1,4,0,21
+Linear: joint seen,linear,joint_seen_reference,211,3,REPORTING_DEVELOPMENT,24,19,1,4,0,21
+Linear: joint seen,linear,joint_seen_reference,307,3,REPORTING_DEVELOPMENT,24,18,1,5,0,21
+Linear: joint seen,linear,joint_seen_reference,401,3,REPORTING_DEVELOPMENT,24,19,1,4,0,21
+Linear: joint seen,linear,joint_seen_reference,503,3,REPORTING_DEVELOPMENT,24,18,1,5,0,21
+MLP: no replay,mlp_tanh,sequential_no_replay,101,3,REPORTING_DEVELOPMENT,24,21,3,0,0,21
+MLP: no replay,mlp_tanh,sequential_no_replay,211,3,REPORTING_DEVELOPMENT,24,20,4,0,0,20
+MLP: no replay,mlp_tanh,sequential_no_replay,307,3,REPORTING_DEVELOPMENT,24,21,2,1,0,21
+MLP: no replay,mlp_tanh,sequential_no_replay,401,3,REPORTING_DEVELOPMENT,24,19,5,0,0,19
+MLP: no replay,mlp_tanh,sequential_no_replay,503,3,REPORTING_DEVELOPMENT,24,22,2,0,0,22
+MLP: replay,mlp_tanh,sequential_replay,101,3,REPORTING_DEVELOPMENT,24,24,0,0,0,24
+MLP: replay,mlp_tanh,sequential_replay,211,3,REPORTING_DEVELOPMENT,24,24,0,0,0,24
+MLP: replay,mlp_tanh,sequential_replay,307,3,REPORTING_DEVELOPMENT,24,23,1,0,0,23
+MLP: replay,mlp_tanh,sequential_replay,401,3,REPORTING_DEVELOPMENT,24,23,1,0,0,23
+MLP: replay,mlp_tanh,sequential_replay,503,3,REPORTING_DEVELOPMENT,24,24,0,0,0,24
+MLP: joint seen,mlp_tanh,joint_seen_reference,101,3,REPORTING_DEVELOPMENT,24,24,0,0,0,24
+MLP: joint seen,mlp_tanh,joint_seen_reference,211,3,REPORTING_DEVELOPMENT,24,24,0,0,0,24
+MLP: joint seen,mlp_tanh,joint_seen_reference,307,3,REPORTING_DEVELOPMENT,24,24,0,0,0,24
+MLP: joint seen,mlp_tanh,joint_seen_reference,401,3,REPORTING_DEVELOPMENT,24,24,0,0,0,24
+MLP: joint seen,mlp_tanh,joint_seen_reference,503,3,REPORTING_DEVELOPMENT,24,24,0,0,0,24
+Nearest seen reference,nearest,seen_reference,0,3,REPORTING_DEVELOPMENT,24,19,0,5,0,24

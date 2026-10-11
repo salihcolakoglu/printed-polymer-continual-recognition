@@ -1,0 +1,227 @@
+{
+  "id": "A24_NEGOTIATED_TASK_CLASS_PROSPECTIVE_V2",
+  "status": "CANDIDATE_NOT_FROZEN_NOT_ADMITTED",
+  "version": "A_v24.0_2026_10_11",
+  "source_unit": "104 previously inspected published average records in26 condition groups; not independent specimens",
+  "source_dataset_doi": "10.17632/zd6td6svd6.2",
+  "source_licence": "CC-BY-4.0",
+  "input_csv": "02_Veriler/A_source_average_records_v1.csv",
+  "features": [
+    "E_MPa",
+    "Hardness_ShoreD"
+  ],
+  "forbidden_model_inputs": [
+    "row_id",
+    "condition_group",
+    "group_order",
+    "native_key_id",
+    "partition",
+    "label_strings",
+    "filenames",
+    "brand/printer/process controls",
+    "source_excel_row"
+  ],
+  "normalization": "Reuse first-task TRAIN36 mean/sampleSD computed from copied CSV; fixed for both streams/stages/methods. No development-fitted scaling.",
+  "partitions": {
+    "TRAIN": {
+      "rows": 72,
+      "groups": 18
+    },
+    "FIT_DEVELOPMENT": {
+      "rows": 16,
+      "groups": 4
+    },
+    "REPORTING_DEVELOPMENT": {
+      "rows": 16,
+      "groups": 4
+    }
+  },
+  "previous_exposure": "All retained records and reporting groups inspected previously. Exploratory comparisons; no new blind-test claims.",
+  "preserved_original_A": {
+    "manuscript": "A_v23.1",
+    "public_archive_doi": "10.5281/zenodo.23289833",
+    "numeric_event": "SD-6324",
+    "old_task_results_retrained": false,
+    "representation": "Original2-4-4CE MLP and linear results retained as historical exact-condition references, not re-labelled CIL."
+  },
+  "streams": {
+    "TaskIncremental": {
+      "new_current_classes": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "train_rows_per_stage": [
+        36,
+        36,
+        36
+      ],
+      "decoder_candidates": "The original task pair supplied for each query.",
+      "evaluation": "All three pair tasks per stage; old/current/future roles explicit; pair-conditioned views may reuse averages. FinalREPORT24views/16uniqueaverages/4groups."
+    },
+    "ClassIncremental": {
+      "new_current_classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "train_rows_per_stage": [
+        36,
+        18,
+        18
+      ],
+      "decoder_candidates": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "future_classes": "Inactive until introduced; total capacity4classes known a priori.",
+      "evaluation": "All and only seen classes, each unique record once per stage; no per-query pair/context label. Report acquisition by introduction-stage/class and retention on old classes. FinalREPORT16uniqueaverages/4groups.",
+      "single_class_increment": "Stage2 and3 current labels singleton, but CE loss competes among all seen classes and code loss spans all8bits. No single-candidate trivial classifier."
+    }
+  },
+  "new_code_methods": [
+    "onehot_no_negotiation",
+    "onehot_negotiated",
+    "walsh_no_negotiation",
+    "walsh_negotiated"
+  ],
+  "new_code_architecture": {
+    "d": 2,
+    "hidden": 4,
+    "hidden_activation": "tanh",
+    "output_bits": 8,
+    "output_activation": "sigmoid",
+    "parameter_count": 52,
+    "dictionary": "onehot8 first4basisvectors; WalshH8rows2..5 mappedC=(1-H)/2; +1->0, -1->1. Same fixed global dictionary perclass acrossstages.",
+    "purpose": "Factorial2code×2negotiation comparisons distinguish coding effect from negotiated target mixing. Same capacity among these four methods."
+  },
+  "negotiation": {
+    "teacher": "Own pre-task model predicts only current TRAIN inputs once at stage start; detached frozen predictions and targets throughout600updates. No future task rows scanned.",
+    "equation": "target=(1-alpha)*fixed_class_code+alpha*teacher_sigmoid_prediction",
+    "alpha_by_stage": [
+      0.5,
+      0.6666666666666666,
+      0.75
+    ],
+    "alpha_recurrence": "a_next=a/(2*a-a*a)=1/(2-a)",
+    "no_negotiation_control": "alpha=0 at every stage; samecode/dimension/loss/initialization/updates; no teacher use.",
+    "implementation_identity": "Explicit source-informed MATLAB adaptation with fixed dictionaries, not byte/exact replication of local thesis scripts or author experiments.",
+    "source_review_pending": false,
+    "source_basis": {
+      "paper": "https://arxiv.org/html/2312.00237v1",
+      "authors_repository": "https://github.com/nurikorhan/Negotiated-Representations-for-Continual-Learning",
+      "source_events": [
+        "SD-9086",
+        "SD-9089"
+      ],
+      "actual_notebook": "Task-start fixed target and Euclidean inference verified; paper/notes BCE decode wording not treated as byte-equivalent actual decoder."
+    }
+  },
+  "new_CIL_CE_controls": [
+    "sequential_no_replay",
+    "sequential_replay",
+    "joint_seen_reference"
+  ],
+  "CIL_CE_architecture": {
+    "d": 2,
+    "hidden": 4,
+    "outputs": 4,
+    "parameters": 32,
+    "loss": "crossentropy among all seen classes",
+    "replay": "Two earliest-by-group_order TRAIN averages per old class, unique IDs; stage2memory4/stage3memory6. Current mass1/memorymass0.5 normalized1.5.",
+    "joint": "Reset own initial model and Adam eachstage; train allseen TRAIN unique rows; referencewith historicalaccess, not memorymatched."
+  },
+  "training": {
+    "seeds": [
+      101,
+      211,
+      307,
+      401,
+      503
+    ],
+    "updates_per_stage": 600,
+    "optimizer": "Adam",
+    "eta": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "epsilon": 1e-08,
+    "weight_L2_lambda": 0.0001,
+    "new_code_loss": "Weighted rowmean of mean-over8bits stable logitBCE +0.5*lambda*weightmatrixnormsquared",
+    "optimizer_across_stages": "Carryown m,v,t except jointseenreset; never transfer state between methods.",
+    "no_hyperparameter_search": true
+  },
+  "decoder": {
+    "primary": "Forced nearest-code class by minimum mean squared distance, or CE argmax over seen classes. No new score-gap selection threshold.",
+    "eligible": "TIL querypair; CIL allseen2->3->4, noquerytaskpair.",
+    "exact_tie": "Record flag and use lowest eligible label deterministically; ties shown in results.",
+    "code_distance": "Raw normalized squared distances pereligibleclass and top2 distancegap retained descriptively. No softmax conversion/0.15 cut on new code outputs.",
+    "CE_distance": "Seen-class softmax scores and top2gap descriptive; main forceddecision.",
+    "old_A_selection": "Original A0.15gap/nonselection outcomes remain as historicaloriginalcondition results; not mixed with new forced-decision populations.",
+    "reason": "With paddedonehot8, exp(-mean distance) would limit maxbinarygap to tanh(1/8)<0.15, while Walsh8 permitslargergaps; commoncut would create structural unfairness."
+  },
+  "evaluation_measures": [
+    "newclass/task forcedaccuracy",
+    "oldclass/task current vs acquisition-stage forcedaccuracy",
+    "maximum earlier post-acquisition accuracy decline",
+    "exactties, fullpopulation and preservedfailures",
+    "classbalanced accuracy and confusion counts",
+    "rawdistancegaps descriptive within scorekind",
+    "parameter/optimizer/codebookbytes, updategradientexamples, teacherforwardexamples, elapsedtime"
+  ],
+  "causal_scope": "Methods compared within each stream. TIL vs CIL change data presentation and information simultaneously; no attribution solely to taskidentity. Code vs ordinaryCE differ capacity/loss, so use matched code/no-negotiation controls for method effects. Onehot1activebit vsWalsh4activebits means codebook-package comparison, not isolation of orthogonality alone.",
+  "new_learning_cost": {
+    "TaskIL_code_stage_entries": 60,
+    "ClassIL_code_stage_entries": 60,
+    "ClassIL_CE_stage_entries": 45,
+    "total_stage_entries": 165,
+    "updates": 99000,
+    "proposed_wall_limit_seconds": 900,
+    "concurrent_MATLAB_processes": 1,
+    "expected_cost": "Small source cohort/52or32parameters; no broad grid. Wall limit is maximum, not completion promise.",
+    "decision_rows": 17550
+  },
+  "launch_requirements": [
+    "Primary method source contract recorded",
+    "New kernel centraldifference/code/decode/teacher checks pass",
+    "Different reviewer accepts complete source/target/visibility/population/cost/code contract",
+    "Freeze exact source CSV/newcode/protocol hashes",
+    "No output directory overwrite; log actual run once and failures"
+  ],
+  "Simulink_scope": "First independently reviewed SLX runs originalA final-stage savedmodels and pairdecisions; new learnedmodel deployment follows new acceptedtraining. Sampleindex not physicaltime; no mechanical dynamics inferred from staticfeatures.",
+  "future_optional_not_in_this_run": [
+    "negotiated+replay hybrid arms",
+    "other task orders or code lengths",
+    "new physically identified specimens/dynamicresponse modelling"
+  ],
+  "supersedes_candidate": "A24_prospective_protocol_v1.json preserved; candidate decoder rule corrected before any run.",
+  "kernel_controls": "New centraldifference BCE gradients and code/decode/mask/teacher cases only; no rerun of original acceptedA checks."
+}

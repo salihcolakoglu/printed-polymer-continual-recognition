@@ -1,0 +1,60 @@
+{
+  "schema": "A27_LICENCE_SCOPE_V1",
+  "package_version": "v27.0",
+  "status": "PREPARED_METADATA_SNAPSHOT_PUBLICATION_PENDING",
+  "original_creators": [
+    "Salih Çolakoğlu",
+    "Mustafa Onat"
+  ],
+  "file_groups": [
+    {
+      "extensions": [
+        ".m",
+        ".py"
+      ],
+      "license": "MIT",
+      "notice": "LICENSE_CODE.txt",
+      "condition": "Retain copyright and permission notices. Academic citation is requested, not an additional license restriction."
+    },
+    {
+      "extensions": [
+        ".csv",
+        ".json",
+        ".mat",
+        ".slx",
+        ".png",
+        ".pdf",
+        ".svg",
+        ".md",
+        ".txt",
+        ".cff"
+      ],
+      "license": "CC-BY-4.0 within authors rights and source-specific terms",
+      "notice": "LICENSE_DATA_FIGURES_DOCS.txt",
+      "condition": "Credit original creators and data sources, link the license, and indicate changes. License texts and third-party notices retain their own terms. Authored SLX artifacts are CC BY 4.0; embedded original code is MIT."
+    }
+  ],
+  "source_dataset": {
+    "doi": "10.17632/zd6td6svd6.2",
+    "license": "CC-BY-4.0",
+    "attribution": "DATA_SOURCES.json"
+  },
+  "third_party_method_implementation": {
+    "repository": "https://github.com/nurikorhan/Negotiated-Representations-for-Continual-Learning",
+    "license": "MIT",
+    "notice": "THIRD_PARTY_CODE_NOTICE.txt"
+  },
+  "excluded_rights": [
+    "MATLAB, Simulink, and MathWorks toolboxes",
+    "Third-party rights not held by the manuscript authors",
+    "Trademark, patent, privacy, and endorsement rights outside the stated licenses"
+  ],
+  "archive": {
+    "repository": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition",
+    "this_version_doi": null,
+    "prior_version_doi": "10.5281/zenodo.23289833",
+    "prior_doi_scope": "v23.0 files only",
+    "this_version_release_published": false,
+    "snapshot_notice": "DOI and publication flags describe local preparation, not the later live record. Consult the exact published release."
+  }
+}
