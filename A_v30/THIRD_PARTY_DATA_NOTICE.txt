@@ -1,0 +1,18 @@
+Source data and current supplement attribution
+
+Aktepe, E.; Ergün, U. FDM 3D Printing Dataset: Printer Type, Materials,
+Process Parameters, and Tensile, Hardness and Roughness Test Results.
+Mendeley Data, version 2 (2026). https://doi.org/10.17632/zd6td6svd6.2
+Associated article: https://doi.org/10.3390/mi17070859
+Source measurements: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+
+The supplied CSV contains the fixed extracted analysis cohort: 104 published
+averages in 26 processing-condition groups. Preserve original creators,
+licence, source version and transformation descriptions. This is not a set
+of104 independently identified printed specimens. Code is separately MIT;
+proprietary MATLAB/Simulink software is not redistributed.
+
+01_Kaynaklar/preserved_reference_THIRD_PARTY_DATA_NOTICE.txt is a byte-exact
+historical notice retained from the original reference package. Its statement
+about eleven MATLAB files describes that historical package, not the current
+S1 file count. Current file allocation is in LICENSE_SCOPE.json.

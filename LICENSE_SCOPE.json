@@ -1,54 +1,38 @@
 {
-  "release": "A_v23_Public_Release_v2",
-  "manuscript_version": "A_v23.0",
-  "known_github_owner": "salihcolakoglu",
-  "public_repository_url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition",
-  "archive_doi": null,
-  "current_authority": "Human explicitly approved CC BY4.0 for original figures/documentation/computational outcomes/model files; code MIT preserved",
-  "code": {
+  "schema": "A30_PUBLIC_LICENSE_SCOPE_V1",
+  "release": "v30.0",
+  "creators": [
+    "Salih Çolakoğlu",
+    "Mustafa Onat"
+  ],
+  "original_code": {
     "license": "MIT",
     "notice": "LICENSE_CODE.txt",
-    "paths": [
-      "03_Hesaplama_Eki/recorded_package_v2/run_r04_source_experiment_v2.m",
-      "03_Hesaplama_Eki/recorded_package_v2/matlab_utility/*.m",
-      "figures/*.m",
-      "figures/*.py"
-    ]
+    "scope": "Original MATLAB/Python code and original code embedded within authored model artifacts; retained third-party notices apply to adapted components."
   },
-  "source_measurements_and_derivatives": {
-    "license": "CC-BY-4.0",
-    "source_doi": "10.17632/zd6td6svd6.2",
-    "source_version": 2,
-    "paths": [
-      "03_Hesaplama_Eki/recorded_package_v2/staged_source_records_v1.csv",
-      "figures/Figure_*_plot_data.csv"
-    ],
-    "source_notice": "03_Hesaplama_Eki/THIRD_PARTY_DATA_NOTICE.txt"
-  },
-  "original_scientific_figures_docs_outcomes_models": {
-    "license": "CC-BY-4.0",
+  "authored_scientific_artifacts": {
+    "license": "CC-BY-4.0 within authors rights",
     "notice": "LICENSE_DATA_FIGURES_DOCS.txt",
-    "copyright": "2026 Salih Çolakoğlu and Mustafa Onat",
-    "paths": [
-      "README.md",
-      "CITATION.cff",
-      "FILE_MANIFEST.json",
-      "LICENSE_SCOPE.json",
-      "03_Hesaplama_Eki/*.md",
-      "03_Hesaplama_Eki/*.json",
-      "03_Hesaplama_Eki/recorded_package_v2/*.json",
-      "03_Hesaplama_Eki/recorded_package_v2/README.txt",
-      "03_Hesaplama_Eki/recorded_package_v2/review/*.json",
-      "03_Hesaplama_Eki/recorded_package_v2/source_results_v2/*",
-      "figures/README_figures.txt",
-      "figures/Figure_*.png",
-      "figures/Figure_*.pdf",
-      "figures/Figure_*.svg"
-    ]
+    "scope": "Authored figures, scientific documentation, computational outcomes, saved learned states and authored model artifacts, as identified by the complete supplement manifest."
   },
-  "source_originals_relicensed": false,
-  "historical_paths_retained": true,
-  "scientific_data_and_code_modified": false,
-  "software_runtime_or_toolboxes_distributed": false,
-  "top_level_scope_explains_current_public_copy": "Unchanged nested historical notices remain evidence of their original scope; source-data rights and software grants are preserved."
+  "source_dataset": {
+    "doi": "10.17632/zd6td6svd6.2",
+    "license": "CC-BY-4.0",
+    "source_version": 2,
+    "originals_relicensed": false,
+    "notice": "THIRD_PARTY_DATA_NOTICE.txt"
+  },
+  "third_party_method_code": {
+    "repository": "https://github.com/nurikorhan/Negotiated-Representations-for-Continual-Learning",
+    "license": "MIT",
+    "notice": "THIRD_PARTY_CODE_NOTICE.txt",
+    "original_terms_retained": true
+  },
+  "archives": "ZIP containers convey the file-level scopes of their members; compression does not relicense member content.",
+  "exceptions": [
+    "Licence texts and external notices retain their own terms.",
+    "Authored Simulink artifacts exclude proprietary MATLAB/Simulink software and do not grant its licence."
+  ],
+  "academic_software_citation": "Requested without adding a restriction to MIT reuse.",
+  "proprietary_runtime_or_toolboxes_included": false
 }
