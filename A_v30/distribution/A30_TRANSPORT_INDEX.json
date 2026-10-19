@@ -1,0 +1,32 @@
+{
+  "schema": "A30_PUBLIC_TRANSPORT_INDEX_V1",
+  "package": "A30_Supplement_S1_v1",
+  "version": "30.0",
+  "manifest_sha256": "619ebaf7bd16cc1bff145a06495c6efe5039f46cdbfc0fed083ded3fd0cd56f6",
+  "source_files": 2386,
+  "source_payload_bytes": 211822018,
+  "complete_zip": {
+    "filename": "A30_Supplement_S1_v1.zip",
+    "bytes": 47346332,
+    "sha256": "34874bcd8837273327a5cc3f45373c3863880834245c420c90bfaf9151c80b68"
+  },
+  "parts": [
+    {
+      "filename": "A30_Supplement_S1_v1_part01.zip",
+      "bytes": 24827382,
+      "sha256": "21e0e5d7c6b278235cbe6e69fd55f67980a4224037bc6342e5f113124350a328",
+      "git_blob_sha1": "d353f5a1dd83c1ad59937993f1e1eba59455790d",
+      "members": 63
+    },
+    {
+      "filename": "A30_Supplement_S1_v1_part02.zip",
+      "bytes": 22518972,
+      "sha256": "7078ffd6c1448532acbec9caf3cc840638664570b2caf36cdbc7204aa1e59117",
+      "git_blob_sha1": "556310d48a52f267c4b6aba8e6a579552538f925",
+      "members": 2323
+    }
+  ],
+  "extraction": "Each part is an independently extractable ZIP. Download every listed part into one directory and extract all into the same new empty destination; the union is exactly A30_Supplement_S1_v1/. Alternatively extract the complete ZIP release asset. Verify MANIFEST_SHA256.json and use the supplied public inspectors.",
+  "license_scope": "The file-level member licences apply; ZIP containers do not relicense contents. Original codeMIT; scientific artifactsCCBY4within rights; third-party terms retained.",
+  "old_versions_unchanged": true
+}

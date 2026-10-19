@@ -1,0 +1,14 @@
+A30 verified dependency record
+
+Saved matched/baseline evaluators: Python3 standard library.
+Full saved Simulink payload auditor: Python3 plus NumPy.
+Figure adapter: ReportLab and pypdf; optional Poppler pdftoppm for PNG.
+Observed bundled versions: {"numpy": "2.3.5", "reportlab": "4.4.9", "pypdf": "6.10.0"}
+
+Actual SLX source runs: MATLAB26.1.0.3346908(R2026a)Update5;Simulink26.1.
+The MATLABFunction inference chart uses the installed Simulink toolchain.
+This records the verified environment, not a proof of a minimal toolbox set.
+No MathWorks runtime/toolbox/software licence is redistributed.
+SciPy is not required: the public auditor includes a bounded numeric MATv5 reader.
+No package installation is performed by the supplied utilities.
+Training producers retain separate admission and resource requirements.

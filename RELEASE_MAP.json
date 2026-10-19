@@ -1,15 +1,59 @@
 {
-  "current_package": "A_v27",
-  "version": "v27.0",
-  "supporting_manuscript": "A27",
-  "package_manifest": "A_v27/FILE_MANIFEST.json",
-  "prior_archive_doi": "10.5281/zenodo.23289833",
-  "prior_scope": "v23.0 reference component only",
+  "schema": "A30_FORWARD_RELEASE_MAP_V1",
+  "version": "v30.0",
+  "repository": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition",
+  "release_url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/tag/v30.0",
+  "concept_doi": "10.5281/zenodo.23289832",
+  "concept_doi_scope": "All versions; not the identifier of a particular new payload.",
   "new_version_doi": null,
-  "root_historical_materials": [
-    "03_Hesaplama_Eki",
-    "figures",
-    "FILE_MANIFEST.json"
+  "new_version_doi_status": "Await actual Zenodo archival and readback; do not substitute a historical version DOI.",
+  "public_package": "A30_Supplement_S1_v1",
+  "accepted_commit_sha": null,
+  "scientific_manifest_sha256": "619ebaf7bd16cc1bff145a06495c6efe5039f46cdbfc0fed083ded3fd0cd56f6",
+  "transport_index_sha256": "045be932819fbc00974a8a8ece2b9ae694dfb4a742b7265a755a325ac926e4d0",
+  "inference_scope": {
+    "source_record_decisions": 47502,
+    "logical_populations": 2610,
+    "saved_simulink_banks": 5,
+    "maximum_observed_absolute_numerical_difference": 9.769962616701378e-15,
+    "new_training": false,
+    "new_physical_validation": false
+  },
+  "historical_archives": [
+    {
+      "version": "v27.0",
+      "doi": "10.5281/zenodo.23293866",
+      "scope": "Original fixed-allocation computational materials; excludes the new group-heldout bank and A30 parity validation."
+    },
+    {
+      "version": "v23.0",
+      "doi": "10.5281/zenodo.23289833",
+      "scope": "Earlier reference-comparison component."
+    }
   ],
-  "publication_status": "Prepared snapshot; consult the actual GitHub release and Zenodo record."
+  "tag_policy": "Once v30.0 is published its commit remains fixed. Actual DOI metadata may be added in a later main-only documentation commit and release text without moving the tag or changing the numerical bank.",
+  "scientific_source_files": 2386,
+  "source_payload_bytes": 211822018,
+  "complete_zip": {
+    "filename": "A30_Supplement_S1_v1.zip",
+    "bytes": 47346332,
+    "sha256": "34874bcd8837273327a5cc3f45373c3863880834245c420c90bfaf9151c80b68"
+  },
+  "tracked_distribution_parts": [
+    {
+      "filename": "A30_Supplement_S1_v1_part01.zip",
+      "bytes": 24827382,
+      "sha256": "21e0e5d7c6b278235cbe6e69fd55f67980a4224037bc6342e5f113124350a328",
+      "git_blob_sha1": "d353f5a1dd83c1ad59937993f1e1eba59455790d",
+      "members": 63
+    },
+    {
+      "filename": "A30_Supplement_S1_v1_part02.zip",
+      "bytes": 22518972,
+      "sha256": "7078ffd6c1448532acbec9caf3cc840638664570b2caf36cdbc7204aa1e59117",
+      "git_blob_sha1": "556310d48a52f267c4b6aba8e6a579552538f925",
+      "members": 2323
+    }
+  ],
+  "distribution_path": "A_v30/distribution/"
 }

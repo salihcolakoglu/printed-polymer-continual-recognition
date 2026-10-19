@@ -1,0 +1,42 @@
+A30 — Code, data, models, results and figures
+
+Computational materials accompanying "Continual Recognition of Printed Polymer
+Contexts from Published Average Mechanical Records" by Salih Çolakoğlu and
+Mustafa Onat, Marmara University.
+
+This version supplies the five-fold group-heldout task-incremental and
+class-incremental comparisons, simple references, Replay, EWC, LwF and
+Walsh-negotiated configurations. The full supplement includes source data,
+scientific protocols, code, learned states, predictions, results, figures and
+their plotting sources. It preserves the original fixed-allocation comparisons
+and the existing learning outcomes.
+
+Five saved Simulink inference banks now reproduce all 47,502 accepted source-record
+decisions across 2,610 logical evaluation populations. Labels, masks, ties and
+native coverage/error points were checked; the largest observed absolute numerical
+difference was9.77e-15. Saved models were cold-reopened and their semantic state
+read back. No retraining or new physical experiment was performed for this parity
+check. It is implementation verification, not physical validation or an additional
+algorithmic accuracy claim.
+
+All104published average records in26source-condition groups were previously
+inspected. Group-heldout results remain exploratory; averages, task views and
+seeds are not independent specimens. Separate TaskIL and ClassIL protocols and
+all method variants/initializations are retained.
+
+Original code:MIT. Authored scientific artifacts:CC BY4.0 within the authors' rights.
+Source-specific data/code notices and method attribution remain in force. Academic
+software citation is requested without adding a condition to MIT. No proprietary
+MathWorks software, unpublished manuscript, private review or correspondence is
+included. The scientific manifest and transport index identify the exact package;
+the complete ZIP asset and two tracked archive parts contain the same
+accepted2,386-file payload. The full scientific manifest SHA-256 is
+619ebaf7bd16cc1bff145a06495c6efe5039f46cdbfc0fed083ded3fd0cd56f6.
+
+Original dataset:https://doi.org/10.17632/zd6td6svd6.2
+Source article:https://doi.org/10.3390/mi17070859
+All-versions archive DOI:https://doi.org/10.5281/zenodo.23289832
+Historical v27.0 DOI:https://doi.org/10.5281/zenodo.23293866 (original fixed-allocation scope).
+
+The new version DOI is assigned by Zenodo after actual archival. Use the displayed
+v30.0 version DOI once verified; the historical DOI does not identify this package.

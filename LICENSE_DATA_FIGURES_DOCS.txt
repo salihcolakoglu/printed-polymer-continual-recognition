@@ -1,19 +1,22 @@
-Creative Commons Attribution 4.0 International — scientific materials
+Creative Commons Attribution4.0 International — scientific materials
 
-Licence: CC BY 4.0
-Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
-Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+Legal code:https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:https://creativecommons.org/licenses/by/4.0/
 
-1. Source measurements and their attributed derivatives
+The source dataset by E.Aktepe and U.Ergün is Mendeley Data version2 (2026),
+DOI10.17632/zd6td6svd6.2, associated with article DOI10.3390/mi17070859.
+Source measurements and attributed derivatives retain the original CC BY4.0
+terms. Keep source creators, version, DOI and extraction description with reuse.
+The original dataset is not relicensed by this release.
 
-The source dataset by E. Aktepe and U. Ergün is Mendeley Data version 2 (2026), DOI 10.17632/zd6td6svd6.2, associated with article DOI 10.3390/mi17070859. It is used under its original CC BY 4.0 terms. This package includes an extracted analysis cohort and source-derived plotting data, not a replacement original dataset. Keep the original authors, dataset version, DOI and extraction description with reused data. The source files are not relicensed.
+Copyright(c)2026 Salih Çolakoğlu and Mustafa Onat.
+The authors' original scientific figures, documentation, computational outcomes,
+saved learned states and authored model artifacts in the accepted A30 manifest
+are supplied under CC BY4.0 within their rights. Retain attribution and indicate
+changes as that licence requires. External notices and licence texts keep their
+own conditions. Authored .slx artifacts do not convey MathWorks software licences;
+embedded original software code retains its separate MIT terms.
 
-2. Original scientific materials in this release
-
-Copyright (c) 2026 Salih Çolakoğlu and Mustafa Onat.
-
-The authors' original scientific figures, captions/documentation, computational outcomes and saved model/optimizer-state files in this A v23 release are provided under CC BY 4.0, as explicitly approved for this release. This includes PNG/PDF/SVG figure outputs, explanatory text, scientific JSON/CSV outputs, normalizers, recorded model states and file-manifest documentation. Reuse, redistribution and adaptation require the attribution and change indication specified by CC BY 4.0.
-
-3. Separate software terms
-
-Original MATLAB analysis code and MATLAB/Python plotting/formatting helpers remain under the MIT License in LICENSE_CODE.txt. This CC BY notice does not replace those software terms. The package contains no redistributed MATLAB runtime or proprietary toolbox. Top-level LICENSE_SCOPE.json maps the file groups; unchanged narrower historical notices identify their original scope.
+Original MATLAB/Python software remains MIT under LICENSE_CODE.txt. No proprietary
+MATLAB/Simulink runtime, toolbox or licence material is redistributed. The package
+LICENSE_SCOPE.json and source/third-party notices define the separate file groups.
