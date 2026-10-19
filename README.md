@@ -2,13 +2,7 @@
 
 By **Salih Çolakoğlu and Mustafa Onat**, Marmara University.
 
-Browse the [source and package guide](A_v30/README.md). The complete scientific
-supplement has **2,386 files** and is distributed as [two independently extractable
-ZIP parts](A_v30/distribution/A30_TRANSPORT_INDEX.json). Download both parts and
-extract them into the same empty directory. The transport index supplies byte
-sizes and SHA-256 hashes; the reconstructed scientific manifest identifies every
-member. The full ZIP attached to release v30.0 is an alternative download of
-the same accepted package.
+Browse the [source and package guide](A_v30/README.md). Download the [complete supplement ZIP](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/download/v30.0/A30_Supplement_S1_v1.zip), or download [part 1](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/raw/refs/tags/v30.0/A_v30/distribution/A30_Supplement_S1_v1_part01.zip) and [part 2](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/raw/refs/tags/v30.0/A_v30/distribution/A30_Supplement_S1_v1_part02.zip) with the [transport index](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/blob/v30.0/A_v30/distribution/A30_TRANSPORT_INDEX.json). Extract both independently extractable parts into the same empty directory; do not concatenate them. Both routes contain the same accepted 2,386-file scientific package.
 
 This computational release preserves the original fixed-allocation comparisons
 and supplies the five-fold group-heldout task-incremental and class-incremental
@@ -51,10 +45,7 @@ parity supplies no new physical validation or algorithmic accuracy result.
 
 ## Versions and citation
 
-The exact GitHub release is **v30.0**. Its version-specific Zenodo DOI is assigned
-when the linked release is archived; use the actual DOI displayed by Zenodo once
-available. Until then, use the release URL and `CITATION.cff`. No old version DOI
-identifies the new package.
+The exact [GitHub release is v30.0](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/tag/v30.0). Cite its verified version-specific archive DOI: **[10.5281/zenodo.23474663](https://doi.org/10.5281/zenodo.23474663)**. The immutable release tag identifies commit `cb88f13f26a7ea68562db4f815e88037720142b2`. This later main-branch documentation update adds the assigned DOI without changing that tag or the archived scientific files.
 
 The [all-versions DOI](https://doi.org/10.5281/zenodo.23289832) identifies the archive
 family. The [v27.0 DOI](https://doi.org/10.5281/zenodo.23293866) preserves the original

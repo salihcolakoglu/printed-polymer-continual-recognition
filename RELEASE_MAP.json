@@ -5,10 +5,10 @@
   "release_url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/tag/v30.0",
   "concept_doi": "10.5281/zenodo.23289832",
   "concept_doi_scope": "All versions; not the identifier of a particular new payload.",
-  "new_version_doi": null,
-  "new_version_doi_status": "Await actual Zenodo archival and readback; do not substitute a historical version DOI.",
+  "new_version_doi": "10.5281/zenodo.23474663",
+  "new_version_doi_status": "Verified actual public Zenodo record and downloaded archive; all sealed members match.",
   "public_package": "A30_Supplement_S1_v1",
-  "accepted_commit_sha": null,
+  "accepted_commit_sha": "cb88f13f26a7ea68562db4f815e88037720142b2",
   "scientific_manifest_sha256": "619ebaf7bd16cc1bff145a06495c6efe5039f46cdbfc0fed083ded3fd0cd56f6",
   "transport_index_sha256": "045be932819fbc00974a8a8ece2b9ae694dfb4a742b7265a755a325ac926e4d0",
   "inference_scope": {
@@ -37,7 +37,10 @@
   "complete_zip": {
     "filename": "A30_Supplement_S1_v1.zip",
     "bytes": 47346332,
-    "sha256": "34874bcd8837273327a5cc3f45373c3863880834245c420c90bfaf9151c80b68"
+    "sha256": "34874bcd8837273327a5cc3f45373c3863880834245c420c90bfaf9151c80b68",
+    "download_url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/download/v30.0/A30_Supplement_S1_v1.zip",
+    "github_asset_id": 656242756,
+    "github_server_digest_verified": true
   },
   "tracked_distribution_parts": [
     {
@@ -45,15 +48,26 @@
       "bytes": 24827382,
       "sha256": "21e0e5d7c6b278235cbe6e69fd55f67980a4224037bc6342e5f113124350a328",
       "git_blob_sha1": "d353f5a1dd83c1ad59937993f1e1eba59455790d",
-      "members": 63
+      "members": 63,
+      "download_url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition/raw/refs/tags/v30.0/A_v30/distribution/A30_Supplement_S1_v1_part01.zip"
     },
     {
       "filename": "A30_Supplement_S1_v1_part02.zip",
       "bytes": 22518972,
       "sha256": "7078ffd6c1448532acbec9caf3cc840638664570b2caf36cdbc7204aa1e59117",
       "git_blob_sha1": "556310d48a52f267c4b6aba8e6a579552538f925",
-      "members": 2323
+      "members": 2323,
+      "download_url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition/raw/refs/tags/v30.0/A_v30/distribution/A30_Supplement_S1_v1_part02.zip"
     }
   ],
-  "distribution_path": "A_v30/distribution/"
+  "distribution_path": "A_v30/distribution/",
+  "zenodo_record_url": "https://zenodo.org/records/23474663",
+  "zenodo_source_archive": {
+    "bytes": 57885232,
+    "md5": "30ff8cbc336c28ae8453ea79164d67a7",
+    "sha256": "77f24b0cf9826d6b6b61b6c1d2871228a72c32bd000f9785ed36f4575e8474fa",
+    "all_sealed_members_verified": 2386
+  },
+  "transport_index_url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition/blob/v30.0/A_v30/distribution/A30_TRANSPORT_INDEX.json",
+  "extraction": "Extract both independent ZIP parts into the same empty directory; do not concatenate."
 }

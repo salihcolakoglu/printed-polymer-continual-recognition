@@ -1,42 +1,21 @@
-A30 — Code, data, models, results and figures
+Computational materials accompanying “Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records” by Salih Çolakoğlu and Mustafa Onat, Marmara University.
 
-Computational materials accompanying "Continual Recognition of Printed Polymer
-Contexts from Published Average Mechanical Records" by Salih Çolakoğlu and
-Mustafa Onat, Marmara University.
+This version supplies the five-fold group-heldout task-incremental and class-incremental comparisons, simple references, Replay, EWC, LwF and Walsh-negotiated configurations. The complete 2,386-file supplement contains source data, scientific protocols, code, learned states, predictions, results, figures and plotting sources. It preserves the existing learning outcomes and historical fixed-allocation comparisons.
 
-This version supplies the five-fold group-heldout task-incremental and
-class-incremental comparisons, simple references, Replay, EWC, LwF and
-Walsh-negotiated configurations. The full supplement includes source data,
-scientific protocols, code, learned states, predictions, results, figures and
-their plotting sources. It preserves the original fixed-allocation comparisons
-and the existing learning outcomes.
+Five saved Simulink inference banks reproduce all 47,502 accepted source-record decisions across 2,610 logical evaluation populations. Labels, masks, ties and native coverage/error points were checked; the largest observed absolute numerical difference was 9.77e-15. Saved models were cold-reopened and their semantic state read back. No retraining or new physical experiment was performed for this check. It verifies implementation parity, without adding a physical-validation or algorithmic-accuracy claim.
 
-Five saved Simulink inference banks now reproduce all 47,502 accepted source-record
-decisions across 2,610 logical evaluation populations. Labels, masks, ties and
-native coverage/error points were checked; the largest observed absolute numerical
-difference was9.77e-15. Saved models were cold-reopened and their semantic state
-read back. No retraining or new physical experiment was performed for this parity
-check. It is implementation verification, not physical validation or an additional
-algorithmic accuracy claim.
+All 104 published average records in 26 source-condition groups were previously inspected. Group-heldout results remain exploratory. Averages, task views and seeds are not independent specimens. Separate TaskIL and ClassIL protocols and all method variants/initializations remain visible.
 
-All104published average records in26source-condition groups were previously
-inspected. Group-heldout results remain exploratory; averages, task views and
-seeds are not independent specimens. Separate TaskIL and ClassIL protocols and
-all method variants/initializations are retained.
+Download the [complete supplement ZIP](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/download/v30.0/A30_Supplement_S1_v1.zip), or download [part 1](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/raw/refs/tags/v30.0/A_v30/distribution/A30_Supplement_S1_v1_part01.zip) and [part 2](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/raw/refs/tags/v30.0/A_v30/distribution/A30_Supplement_S1_v1_part02.zip) with the [transport index](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/blob/v30.0/A_v30/distribution/A30_TRANSPORT_INDEX.json). Extract both independently extractable parts into the same empty directory; do not concatenate them. Both routes contain the same accepted 2,386-file scientific package.
 
-Original code:MIT. Authored scientific artifacts:CC BY4.0 within the authors' rights.
-Source-specific data/code notices and method attribution remain in force. Academic
-software citation is requested without adding a condition to MIT. No proprietary
-MathWorks software, unpublished manuscript, private review or correspondence is
-included. The scientific manifest and transport index identify the exact package;
-the complete ZIP asset and two tracked archive parts contain the same
-accepted2,386-file payload. The full scientific manifest SHA-256 is
-619ebaf7bd16cc1bff145a06495c6efe5039f46cdbfc0fed083ded3fd0cd56f6.
+Scientific manifest SHA-256: `619ebaf7bd16cc1bff145a06495c6efe5039f46cdbfc0fed083ded3fd0cd56f6`.
 
-Original dataset:https://doi.org/10.17632/zd6td6svd6.2
-Source article:https://doi.org/10.3390/mi17070859
-All-versions archive DOI:https://doi.org/10.5281/zenodo.23289832
-Historical v27.0 DOI:https://doi.org/10.5281/zenodo.23293866 (original fixed-allocation scope).
+Original code: MIT. Authored scientific artifacts: CC BY 4.0 within the authors’ rights. Retain source-specific data/code notices and method attribution. Academic software citation is requested without adding a restriction to MIT. No proprietary MathWorks software, unpublished manuscript, private review or correspondence is included.
 
-The new version DOI is assigned by Zenodo after actual archival. Use the displayed
-v30.0 version DOI once verified; the historical DOI does not identify this package.
+Original dataset: https://doi.org/10.17632/zd6td6svd6.2
+Source article: https://doi.org/10.3390/mi17070859
+Version-specific v30.0 archive DOI: https://doi.org/10.5281/zenodo.23474663
+All-versions archive DOI: https://doi.org/10.5281/zenodo.23289832
+Historical v27.0 DOI: https://doi.org/10.5281/zenodo.23293866 (original fixed-allocation scope).
+
+The v30.0 tag and archived scientific files remain fixed. The actual Zenodo source archive contains both verified ZIP parts and their exact index under A_v30/distribution/.

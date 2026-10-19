@@ -1,7 +1,7 @@
 {
   "cff-version": "1.2.0",
   "type": "software",
-  "message": "Cite this exact computational version and retain the original data and method citations. Use the v30.0 release URL until its actual version DOI is displayed by Zenodo after archiving.",
+  "message": "Cite this exact computational version using DOI 10.5281/zenodo.23474663 and retain the original data and method citations. LICENSE_SCOPE.json defines separate MIT software and CC BY 4.0 scientific artifact groups within the authors rights.",
   "title": "Computational materials for Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records",
   "version": "30.0",
   "authors": [
@@ -30,5 +30,7 @@
     "Walsh codes",
     "negotiated representations",
     "Simulink inference"
-  ]
+  ],
+  "doi": "10.5281/zenodo.23474663",
+  "date-released": "2026-10-19"
 }
