@@ -1,0 +1,36 @@
+A29 Supplement S1 — method and implementation provenance
+
+Original MATLAB implementations: Salih Çolakoğlu and Mustafa Onat, MIT.
+Standard sources:
+van de Ven, G.M.; Tuytelaars, T.; Tolias, A.S. Three types of incremental
+learning. Nature Machine Intelligence 4, 1185–1197 (2022).
+https://doi.org/10.1038/s42256-022-00568-3
+Kirkpatrick, J. et al. Overcoming catastrophic forgetting in neural networks.
+PNAS 114(13), 3521–3526 (2017). https://doi.org/10.1073/pnas.1611835114
+Li, Z.; Hoiem, D. Learning without Forgetting. IEEE TPAMI 40(12), 2935–2947
+(2018). https://doi.org/10.1109/TPAMI.2017.2773081
+
+Negotiated target mixing is informed by Korhan, N.; Öner, C. Negotiated
+Representations to Prevent Forgetting in Machine Learning Applications.
+Preprint arXiv:2312.00237v1 (2023), https://arxiv.org/abs/2312.00237v1 .
+This remains a preprint, not a journal publication. Source author code:
+https://github.com/nurikorhan/Negotiated-Representations-for-Continual-Learning
+MIT notice retained in THIRD_PARTY_CODE_NOTICE.txt.
+The present implementation uses fixed global OH8/WH8 dictionaries, a shared
+small tanh network, frozen stage-start targets and nearest mean-squared-code
+decoding. Alpha=[1/2,2/3,3/4]. Replay uses hard original codes for retained
+records. These are explicit adaptations, not a rerun of the image notebook.
+
+Replay uses two metadata-hash-selected first-arrival TRAIN parents per class,
+a maximum of eight unique parents, current/memory overlap removal, and equal
+current/memory mean-loss mass when memory is nonempty. EWC uses separate
+anchors and exact diagonal model-expected Fisher; lambda = 10 is primary and
+lambda = 1 and 100 are predeclared sensitivities. LwF uses T = 2, lambda = 1, no extra T^2,
+and current-input frozen-teacher responses over complete old class masks.
+The supplied numerical protocol defines all details and information access.
+
+CE models have 32 parameters and coded models 52. Cross-block differences
+compare complete procedures. The OH/Walsh contrast includes bit density and
+code geometry and does not isolate orthogonality or establish error correction.
+No unpublished earlier paper by the manuscript authors is cited as scientific
+authority. Historical component names identify computational files only.
