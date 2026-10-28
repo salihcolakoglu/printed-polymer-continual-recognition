@@ -1,3 +1,9 @@
+# A31 computational materials
+
+The A31 source-average analysis and reproducibility materials are in [A_v31](A_v31/), with independently extractable files and instructions in [the GitHub distribution](A_v31/github_web/). The A31 Zenodo record is in preparation. The earlier v30 description follows.
+
+---
+
 # Printed-polymer continual recognition — A30 materials
 
 By **Salih Çolakoğlu and Mustafa Onat**, Marmara University.
