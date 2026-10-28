@@ -1,6 +1,6 @@
 {
   "schema": "A31_GITHUB_WEB_FILES_SHA256_V1",
-  "created_utc": "2026-10-28T05:24:13.335051+00:00",
+  "created_utc": "2026-10-28T10:24:19.125628+00:00",
   "status": "CONTENT_INVENTORY_VERIFIED_PUBLICATION_STATUS_IN_PLATFORM_RECORD",
   "files": [
     {
@@ -130,8 +130,8 @@
     },
     {
       "filename": "README.md",
-      "bytes": 2257,
-      "sha256": "e97ccbfd549c4cc44aa856a93fcb37de6af14789ba7a41a2a4b033923ac0f514"
+      "bytes": 2414,
+      "sha256": "0d3e01a189d348d864d1558c3812929f05262896c8458c0cda81e35cf02ab357"
     },
     {
       "filename": "THIRD_PARTY_CODE_NOTICE.txt",
@@ -145,7 +145,7 @@
     }
   ],
   "self_excluded": true,
-  "previous_manifest_sha256": "cad740623046be2675ff55da60321f7ef16e038246d5abbccc3412f3f88b088d",
-  "readme_revision": "18 independent ZIP part names made explicit.",
+  "previous_manifest_sha256": "756236341cc48433f0a36043dc5afc535f88f419b71d58fa38d430cdfe5be1e2",
+  "readme_revision": "Added the published v31 DOI and identified the v17 supplement as a preparatory snapshot.",
   "license_18_parts_revision": "Root notice now specifies all 18 GitHub web parts; other files and legal grant unchanged."
 }
