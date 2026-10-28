@@ -130,8 +130,8 @@
     },
     {
       "filename": "README.md",
-      "bytes": 2414,
-      "sha256": "0d3e01a189d348d864d1558c3812929f05262896c8458c0cda81e35cf02ab357"
+      "bytes": 2427,
+      "sha256": "385fb732da6cfd5e7764599baf522a36ffb4b42f9db981d52220a4b5ecd71486"
     },
     {
       "filename": "THIRD_PARTY_CODE_NOTICE.txt",
@@ -145,7 +145,7 @@
     }
   ],
   "self_excluded": true,
-  "previous_manifest_sha256": "756236341cc48433f0a36043dc5afc535f88f419b71d58fa38d430cdfe5be1e2",
+  "previous_manifest_sha256": "279cc2a0c22649d614fc28fb7e071ee4426752d45f96507174e92091108761b9",
   "readme_revision": "Added the published v31 DOI and identified the v17 supplement as a preparatory snapshot.",
   "license_18_parts_revision": "Root notice now specifies all 18 GitHub web parts; other files and legal grant unchanged."
 }
