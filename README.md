@@ -1,6 +1,6 @@
 # A31 computational materials
 
-The A31 source-average analysis and reproducibility materials are in [A_v31](A_v31/), with independently extractable files and instructions in [the GitHub distribution](A_v31/github_web/). The A31 Zenodo record is in preparation. The earlier v30 description follows.
+The A31 source-average analysis and reproducibility materials are in [A_v31](A_v31/), with independently extractable files and instructions in [the GitHub distribution](A_v31/github_web/). The A31 version-specific archive is [Zenodo v31.0](https://doi.org/10.5281/zenodo.23720507). The earlier v30 description follows.
 
 ---
 
