@@ -1,77 +1,32 @@
-# A31 computational materials
-
-The A31 source-average analysis and reproducibility materials are in [A_v31](A_v31/), with independently extractable files and instructions in [the GitHub distribution](A_v31/github_web/). The A31 Zenodo record is in preparation. The earlier v30 description follows.
-
----
-
-# Printed-polymer continual recognition — A30 materials
+# Printed-polymer continual recognition — version 32 materials
 
 By **Salih Çolakoğlu and Mustafa Onat**, Marmara University.
 
-Browse the [source and package guide](A_v30/README.md). Download the [complete supplement ZIP](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/download/v30.0/A30_Supplement_S1_v1.zip), or download [part 1](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/raw/refs/tags/v30.0/A_v30/distribution/A30_Supplement_S1_v1_part01.zip) and [part 2](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/raw/refs/tags/v30.0/A_v30/distribution/A30_Supplement_S1_v1_part02.zip) with the [transport index](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/blob/v30.0/A_v30/distribution/A30_TRANSPORT_INDEX.json). Extract both independently extractable parts into the same empty directory; do not concatenate them. Both routes contain the same accepted 2,386-file scientific package.
+This study compares Continual Learning with stored-record and classical reference methods across two printed-polymer measurement archives. Whole-condition-group evaluation, explicit historical-data access and matched two- versus four-input experiments connect recognition accuracy to the information available to each procedure.
 
-This computational release preserves the original fixed-allocation comparisons
-and supplies the five-fold group-heldout task-incremental and class-incremental
-comparisons, together with saved states, predictions and plotting data. The
-comparisons include simple references, Replay, EWC, LwF and Walsh-negotiated
-configurations. The package retains the methods, random initializations,
-ties, nonselections and distinct evaluation protocols.
+## Download and citation
 
-## Simulink inference and reproducibility
+The complete computational package and the reviewed supplementary methods are available in the **[Zenodo v32.0 record](https://doi.org/10.5281/zenodo.23819158)**:
 
-Five saved Simulink inference banks reproduce the accepted MATLAB source-record
-decisions without retraining. Validation covers **47,502 decisions** across
-**2,610 logical evaluation populations**, including matched and simple-reference
-states, eligible masks, decisions, ties and native coverage/error points. The
-largest observed absolute numerical difference was **9.77 × 10⁻¹⁵**. The saved
-models were cold-reopened and their semantic state read back for comparison.
-This establishes implementation parity for these stored inputs and states.
+- [Complete code, data, saved models, results and figures](https://zenodo.org/records/23819158/files/A32_v32.0_computational_materials.zip?download=1)
+- [Supplementary methods and results — PDF](https://zenodo.org/records/23819158/files/Supplementary_Methods_and_Results_v32_r8.pdf?download=1) and [editable Word](https://zenodo.org/records/23819158/files/Supplementary_Methods_and_Results_v32_r8.docx?download=1)
+- [File-level SHA-256 manifest](https://zenodo.org/records/23819158/files/A32_v32.0_MANIFEST_SHA256.csv?download=1) and [archive checksums](https://zenodo.org/records/23819158/files/A32_v32.0_CHECKSUMS.txt?download=1)
 
-The complete supplement contains the scientific protocols, source records,
-learning code, model states, predictions, Simulink models/traces, figures and
-their numerical sources, file-level licence scope, and reproducibility evidence.
-Use its manifest and model index to identify the exact files. If distribution
-uses several independently extractable ZIP parts, the transport index lists
-every part and its SHA-256; extract all parts into the same empty directory.
+Archive: `A32_v32.0_computational_materials.zip`, **558,395,936 bytes**.  
+SHA-256: `e56eacb944fd73dfa553ef474bf0ce8b08ddcbb185de7ae4af919b75a5eb2f68`
 
-Saved-state evaluation and model-inference checking do not require new learning.
-Fresh training is a separate operation with reviewed source access, dependencies,
-resource limits and fresh output locations. Consult the supplied reproduction
-instructions for the exact checked entrypoints. MATLAB and Simulink are proprietary
-dependencies and are not redistributed.
+Cite exact version DOI **10.5281/zenodo.23819158**, together with the original data and method sources. The software archive is separate from journal publication of the manuscript. [A32 package guide](A_v32/README.md) describes entry points and earlier versions.
 
-## Data and interpretation
+## Comparisons and implementation
 
-The cohort contains **104 published average records in 26 source-condition groups**.
-Classifier inputs are tensile modulus and Shore D hardness. The averages do not
-identify independent specimens. All records had been inspected before the
-exploratory group-heldout study; this is not a new blind test. Task views and
-random initializations are repeated computations. Numerical implementation
-parity supplies no new physical validation or algorithmic accuracy result.
+Task Incremental Learning (Task-IL) and Class Incremental Learning (Class-IL) are evaluated separately. Comparisons include nearest-record and nearest-centroid rules, three/five-nearest-neighbour rules, Linear/Quadratic Discriminant Analysis, streaming LDA, linear and Cross-Entropy networks, Replay, Elastic Weight Consolidation and Learning without Forgetting. Uncoded, ordinary-coded and Walsh-coded negotiated learning use five constant Negotiation Rates and symmetric taskwise increasing/decreasing profiles. The rate is fixed within each task.
 
-## Versions and citation
+The package contains 104 primary condition means and a separate 27-mean PLA archive. The latter combines tabulated tensile modulus with Shore D hardness estimated in two separate graph readings. Models are trained within each archive's own groups; digitization scenarios and printer/source differences are documented.
 
-The exact [GitHub release is v30.0](https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/tag/v30.0). Cite its verified version-specific archive DOI: **[10.5281/zenodo.23474663](https://doi.org/10.5281/zenodo.23474663)**. The immutable release tag identifies commit `cb88f13f26a7ea68562db4f815e88037720142b2`. This later main-branch documentation update adds the assigned DOI without changing that tag or the archived scientific files.
+The 53 new Simulink files and five historical model files retain their separate evidence. Fixed-weight inference, exact source-record mappings and same-computer relocated readback have explicitly defined scopes. Some stricter cross-library optimizer-trajectory comparisons exceed their recorded numerical criterion; those diagnostics are retained separately from saved-model inference. These are numerical implementation checks on condition means, rather than new physical specimen tests.
 
-The [all-versions DOI](https://doi.org/10.5281/zenodo.23289832) identifies the archive
-family. The [v27.0 DOI](https://doi.org/10.5281/zenodo.23293866) preserves the original
-fixed-allocation materials and excludes these new group-heldout results and A30
-inference validation. The [v23.0 DOI](https://doi.org/10.5281/zenodo.23289833) preserves
-its earlier reference-comparison component. Old tags and archives remain unchanged.
-This computational release does not assert journal publication of the manuscript.
+## Reuse and reproducibility
 
-## Reuse and attribution
+Extract to a short Windows path such as `C:\A32`, open `START_HERE.md`, and run `python verify_tables.py` with Python 3.10 or newer for the portable table/arithmetic check. MATLAB/Simulink is required for the respective model pathways. Historical run receipts can retain original-machine paths; complete retraining on another computer requires environment/path adaptation.
 
-Original software code is **MIT**. The authors' original scientific figures,
-documentation, computational outcomes, learned states and authored model artifacts
-are **CC BY 4.0 within the authors' rights**. `LICENSE_SCOPE.json` and the supplement
-define the separate file groups. Original code embedded in authored Simulink
-artifacts retains its MIT terms. Source material and external notices retain
-their original conditions. No MathWorks software licence is granted by this release.
-
-Retain the [original dataset](https://doi.org/10.17632/zd6td6svd6.2),
-[source article](https://doi.org/10.3390/mi17070859), method provenance and third-party
-notices. The negotiated-representations source is credited as a preprint, separately
-from journal sources. Academic software citation is requested without adding a
-restriction to MIT. Unpublished manuscripts, private reviews and correspondence
-are excluded from this computational release.
+Original authored code is **MIT**. Author-created scientific documentation, figures, model/result artifacts and derived tables are **CC BY 4.0 within the authors' rights**, with file-specific scope and original third-party notices retained. Consult `LICENSE_SCOPE.json` inside this version's package. Proprietary runtimes, third-party full-paper libraries and private correspondence are excluded.
