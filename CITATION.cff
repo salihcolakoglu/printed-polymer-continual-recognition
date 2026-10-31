@@ -1,9 +1,9 @@
 {
   "cff-version": "1.2.0",
   "type": "software",
-  "message": "Cite this exact computational version using DOI 10.5281/zenodo.23474663 and retain the original data and method citations. LICENSE_SCOPE.json defines separate MIT software and CC BY 4.0 scientific artifact groups within the authors rights.",
-  "title": "Computational materials for Continual Recognition of Printed Polymer Contexts from Published Average Mechanical Records",
-  "version": "30.0",
+  "message": "Cite exact software archive version 32.0 and retain original data and method citations. The package LICENSE_SCOPE.json distinguishes authored MIT software and CC BY 4.0 scientific artifacts within the authors rights.",
+  "title": "Computational materials for continual material context recognition in printed polymer archives",
+  "version": "32.0",
   "authors": [
     {
       "family-names": "Çolakoğlu",
@@ -19,18 +19,12 @@
     }
   ],
   "repository-code": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition",
-  "url": "https://github.com/salihcolakoglu/printed-polymer-continual-recognition/releases/tag/v30.0",
-  "abstract": "MATLAB code, authorized published average records, saved learning states, predictions, results and figures for task-incremental and class-incremental comparisons. Five saved Simulink inference banks reproduce all 47,502 accepted source-record decisions across 2,610 logical evaluation populations without retraining. This is numerical implementation parity, not independent physical validation. Original code is MIT; authored scientific artifacts are CC BY 4.0 within the authors rights, subject to LICENSE_SCOPE.json and retained source-specific notices.",
-  "license": "MIT",
-  "keywords": [
-    "continual learning",
-    "task-incremental learning",
-    "class-incremental learning",
-    "printed polymers",
-    "Walsh codes",
-    "negotiated representations",
-    "Simulink inference"
+  "url": "https://zenodo.org/records/23819158",
+  "doi": "10.5281/zenodo.23819158",
+  "date-released": "2026-10-30",
+  "license": [
+    "MIT",
+    "CC-BY-4.0"
   ],
-  "doi": "10.5281/zenodo.23474663",
-  "date-released": "2026-10-19"
+  "abstract": "Code, published condition-average records, saved models and decisions, group-based Task and Class Incremental Learning comparisons, figures, supplementary methods and scoped numerical/Simulink inference checks across two printed-polymer archives."
 }
